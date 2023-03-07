@@ -1,2 +1,10 @@
+[Adblock Plus 2.0]
+! Homepage: https://github.com/craftingmod/no-ruli-vtube
+! License: The Unlicense
+! Title: No Ruli VTuber
+! Expires: 30 days
+! Version: 20230307
+
+! Simple rule blocking iframe :p
 bbs.ruliweb.com###main_top_game_news2 iframe
 m.ruliweb.com###m_main_top_game_news2 iframe
