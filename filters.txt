@@ -1,0 +1,2 @@
+bbs.ruliweb.com###main_top_game_news2 iframe
+m.ruliweb.com###m_main_top_game_news2 iframe
