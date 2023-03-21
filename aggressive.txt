@@ -1,6 +1,6 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
 ! License: The Unlicense
-! Title: No VTuber - Aggressive filter
+! Title: Ruli No VTuber - Aggressive filter
 ! Expires: 7 days
 ! Version: 20230321_1
 
