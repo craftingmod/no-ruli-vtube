@@ -1,8 +1,8 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
 ! License: The Unlicense
 ! Title: No Ruli VTuber
-! Expires: 7 days
-! Version: 20230321_5
+! Expires: 1 days
+! Version: 20230321_6
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
@@ -20,3 +20,4 @@ m.ruliweb.com###m_main_top_game_news2 > .widget_header > .title_wrapper > :nth-c
 m.ruliweb.com###fixed_ad
 ! No LIVE NO.
 m.ruliweb.com##.board_main > .row > .row
+m.ruliweb.com##.board_main > .row > .border_box
