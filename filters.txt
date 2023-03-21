@@ -13,5 +13,8 @@ bbs.ruliweb.com###main_top_game_news2 > .widget_header > .title_wrapper > :nth-c
 ! Mobile
 ! m.ruliweb.com###m_main_top_game_news2 > .widget_body .youtube
 m.ruliweb.com##.body_list_item[data-swiper-slide-index="5"]
+! Pseudo hide
+m.ruliweb.com###m_main_top_game_news2 > .widget_header > .title_wrapper > :nth-child(4)
+m.ruliweb.com###m_main_top_game_news2 > .widget_header > .title_wrapper > :nth-child(5)
 ! Temporary remove top button
 m.ruliweb.com###fixed_ad
