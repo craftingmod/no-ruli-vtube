@@ -1,0 +1,22 @@
+! Homepage: https://github.com/craftingmod/no-ruli-vtube
+! License: The Unlicense
+! Title: No VTuber - Aggressive filter
+! Expires: 7 days
+! Version: 20230321_1
+
+! PC
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="버튜버"])
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="남궁"])
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="루니"])
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="미루"])
+
+! Mobile
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="버튜버"])
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="남궁"])
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="루니"])
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="미루"])
+
+
+! Emoticon
+! Miru
+bbs.ruliweb.com##.icon_data_show_target[title="루리웹 미루콘"]
