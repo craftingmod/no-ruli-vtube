@@ -1,10 +1,10 @@
 # no-ruli-vtube
 Adblock filter for blocking vtuber advertisement in ruliweb
 
-## [Subscribe](https://subscribe.adblockplus.org/?location=https://github.com/craftingmod/no-ruli-vtube/raw/main/filters.txt&title=No-Ruli-VTube)
+## [Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/craftingmod/no-ruli-vtube@latest/filters.txt&title=No-Ruli-VTube)
 
 ```
-https://github.com/craftingmod/no-ruli-vtube/raw/main/filters.txt
+https://cdn.jsdelivr.net/gh/craftingmod/no-ruli-vtube@latest/filters.txt
 ```
 
-Add URL to filter list or [click](https://subscribe.adblockplus.org/?location=https://github.com/craftingmod/no-ruli-vtube/raw/main/filters.txt&title=No-Ruli-VTube)
+Add URL to filter list or [click](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/craftingmod/no-ruli-vtube@latest/filters.txt&title=No-Ruli-VTube)
