@@ -1,10 +1,17 @@
-[Adblock Plus 2.0]
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
 ! License: The Unlicense
 ! Title: No Ruli VTuber
-! Expires: 30 days
-! Version: 20230307
+! Expires: 7 days
+! Version: 20230321_1
 
-! Simple rule blocking iframe :p
-bbs.ruliweb.com###main_top_game_news2 iframe
-m.ruliweb.com###m_main_top_game_news2 iframe
+! PC
+bbs.ruliweb.com###main_top_game_news2 > div:last-child
+! I should fix this..
+bbs.ruliweb.com###main_top_game_news2 > .widget_header > .title_wrapper > :nth-child(4)
+bbs.ruliweb.com###main_top_game_news2 > .widget_header > .title_wrapper > :nth-child(5)
+
+! Mobile
+! m.ruliweb.com###m_main_top_game_news2 > .widget_body .youtube
+m.ruliweb.com##.body_list_item[data-swiper-slide-index="5"]
+! Temporary remove top button
+m.ruliweb.com###fixed_ad
