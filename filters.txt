@@ -2,7 +2,7 @@
 ! License: The Unlicense
 ! Title: No Ruli VTuber
 ! Expires: 7 days
-! Version: 20230321_1
+! Version: 20230321_2
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
