@@ -2,7 +2,7 @@
 ! License: The Unlicense
 ! Title: No Ruli VTuber
 ! Expires: 7 days
-! Version: 20230321_3
+! Version: 20230321_4
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
@@ -19,4 +19,4 @@ m.ruliweb.com###m_main_top_game_news2 > .widget_header > .title_wrapper > :nth-c
 ! Temporary remove top button
 m.ruliweb.com###fixed_ad
 ! No LIVE NO.
-m.ruliweb.com###board_read > .content_wrapper > .board_main > .row
+m.ruliweb.com##.board_main > .row
