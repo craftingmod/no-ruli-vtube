@@ -1,8 +1,9 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
 ! License: The Unlicense
 ! Title: No Ruli VTuber
-! Expires: 7 days
-! Version: 20230403_1
+! Description: Block V-Tuber AD
+! Expires: 1 days
+! Version: 20230403_2
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
@@ -11,6 +12,7 @@ bbs.ruliweb.com###main_top_game_news2 > .widget_header > .title_wrapper > :nth-c
 bbs.ruliweb.com###main_top_game_news2 > .widget_header > .title_wrapper > :nth-child(5)
 ! Temporal V-Tuber ad in header
 bbs.ruliweb.com###board_top > .row > .col > .border_box
+bbs.ruliweb.com###board_top > .row > .border_box
 
 ! Mobile
 ! m.ruliweb.com###m_main_top_game_news2 > .widget_body .youtube
