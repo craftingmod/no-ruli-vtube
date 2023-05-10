@@ -2,14 +2,13 @@
 ! License: The Unlicense
 ! Title: No Ruli VTuber
 ! Description: Block V-Tuber AD
-! Expires: 1 days
-! Version: 20230403_2
+! Expires: 7 days
+! Version: 20230510_1
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
 ! I should fix this..
-bbs.ruliweb.com###main_top_game_news2 > .widget_header > .title_wrapper > :nth-child(4)
-bbs.ruliweb.com###main_top_game_news2 > .widget_header > .title_wrapper > :nth-child(5)
+bbs.ruliweb.com###main_top_game_news2 > .widget_page_item:nth-child(6)
 ! Temporal V-Tuber ad in header
 bbs.ruliweb.com###board_top > .row > .col > .border_box
 bbs.ruliweb.com###board_top > .row > .border_box
