@@ -2,7 +2,7 @@
 ! License: The Unlicense
 ! Title: No Ruli VTuber - Aggressive filter
 ! Expires: 7 days
-! Version: 20230622_1
+! Version: 20230622_2
 
 ! PC
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(버튜버))
@@ -11,6 +11,7 @@ bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contain
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(미루))
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(이세돌))
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(홀로))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(세아))
 
 ! Mobile
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(버튜버))
@@ -19,6 +20,7 @@ m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(미루))
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(이세돌))
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(홀로))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(세아))
 
 ! Emoticon
 bbs.ruliweb.com#?#.icon_data_show_target:has(> .text_over:contains(사사))
