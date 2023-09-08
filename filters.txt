@@ -3,7 +3,7 @@
 ! Title: No Ruli VTuber
 ! Description: Block V-Tuber AD
 ! Expires: 7 days
-! Version: 20230510_1
+! Version: 20230908_1
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
@@ -24,3 +24,9 @@ m.ruliweb.com###fixed_ad
 ! No LIVE NO.
 m.ruliweb.com##.board_main > .row > .row
 m.ruliweb.com##.board_main > .row > .border_box
+
+
+! In-Content filter
+
+bbs.ruliweb.com###board_read_mid_best
+m.ruliweb.com###bbs_reading_m
