@@ -12,6 +12,8 @@ bbs.ruliweb.com###main_top_game_news2 > .widget_page_item:nth-child(6)
 ! Temporal V-Tuber ad in header
 bbs.ruliweb.com###board_top > .row > .col > .border_box
 bbs.ruliweb.com###board_top > .row > .border_box
+! Notice AD
+bbs.ruliweb.com##.board_list_table > tbody > .notice:nth-child(2)
 
 ! Mobile
 ! m.ruliweb.com###m_main_top_game_news2 > .widget_body .youtube
@@ -24,7 +26,8 @@ m.ruliweb.com###fixed_ad
 ! No LIVE NO.
 m.ruliweb.com##.board_main > .row > .row
 m.ruliweb.com##.board_main > .row > .border_box
-
+! Notice AD
+m.ruliweb.com##.board_list_table > tbody > .notice:nth-child(2)
 
 ! In-Content filter
 
