@@ -3,7 +3,7 @@
 ! Title: No Ruli VTuber - Aggressive filter
 ! Description: BLOCK ALL V-Tuber AD+Fandom Image
 ! Expires: 7 days
-! Version: 20231020_1
+! Version: 20231024_1
 
 ! PC
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(버튜버))
