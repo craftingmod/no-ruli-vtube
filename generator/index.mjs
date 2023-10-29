@@ -1,12 +1,26 @@
 import fs from "node:fs/promises"
-import { getCommentIconBlockFilter, getIconListBlockFilter, getKeywordBlockFilter, keywordPath, loginRuli, ruli } from "./constants.mjs"
-import { login, parseSticker, queryStickers } from "./utils.mjs"
+import { getCommentIconBlockFilter, getIconListBlockFilter, getKeywordBlockFilter, getKeywordHeadFilter, getKeywordTopBlockFilter, iconWhitePath, iconWordPath, keywordPath, loginRuli, ruli } from "./constants.mjs"
+import { login, parseSticker, queryStickers, readList } from "./utils.mjs"
 import puppeteer from "puppeteer"
 
 /**
- * 밴 때릴 키워드들
+ * 차단할 설정
  */
-const banword = (await fs.readFile(keywordPath, {encoding: "utf8"})).split("\n").filter((v) => v.length > 0)
+const totalWord = await readList("totalword")
+const banConfig = {
+  keyword: [
+    ...totalWord,
+    ...await readList("keyword"),
+  ],
+  iconword: [
+    ...totalWord,
+    ...await readList("iconword"),
+  ],
+  headword: [
+    ...await readList("headword"),
+  ]
+}
+
 
 /**
  * 토큰 생성
@@ -29,27 +43,38 @@ filterOutput += `! Generated with script.\n\n`
  * @type {Set<number>}
  */
 const stickerHistory = new Set([])
-for (const keyword of banword) {
-  filterOutput += `\n\n! ########\n`
-  filterOutput += `! ${keyword} 차단\n`
+
+/**
+ * 1. 키워드 차단
+ */
+for (const keyword of banConfig.keyword) {
+  filterOutput += `! # [키워드 차단] ${keyword} 차단\n`
+  filterOutput += `! ########\n`
+  filterOutput += getKeywordBlockFilter(keyword)
+  filterOutput += getKeywordTopBlockFilter(keyword)
+  filterOutput += `\n`
+}
+
+/**
+ * 아이콘 차단
+ */
+for (const iconword of banConfig.iconword) {
+  filterOutput += `! # [아이콘 차단] ${iconword} 차단\n`
   filterOutput += `! ########\n`
 
-  filterOutput += `! # ${keyword} 키워드 차단\n`
-  filterOutput += getKeywordBlockFilter(keyword)
+  filterOutput += `! ## ${iconword} 아이콘 목록 차단\n`
+  filterOutput += getIconListBlockFilter(iconword)
 
-  filterOutput += `! # ${keyword} 아이콘 목록 차단\n`
-  filterOutput += getIconListBlockFilter(keyword)
-
-  filterOutput += `! # ${keyword} 아이콘 표시 차단\n`
+  filterOutput += `! ## ${iconword} 아이콘 표시 차단\n`
   // 아이콘 목록 불러오기
-  const stickers = await queryStickers(stoken, keyword)
+  const stickers = await queryStickers(stoken, iconword)
   for (const sticker of stickers) {
     if (stickerHistory.has(sticker.id)) {
-      filterOutput += `! ## ${sticker.id}는 이미 추가됨\n`
+      filterOutput += `! ### ${sticker.id}는 이미 추가됨\n`
       continue
     }
     stickerHistory.add(sticker.id)
-    filterOutput += `! ## ${sticker.id} : ${sticker.name} (키워드: ${keyword})\n`
+    filterOutput += `! ### ${sticker.id} : ${sticker.name} (키워드: ${iconword})\n`
     filterOutput += getCommentIconBlockFilter(sticker.id)
     // 이미지 블럭 (실험적)
     const images = await parseSticker(stoken, sticker.id)
@@ -57,7 +82,18 @@ for (const keyword of banword) {
       filterOutput += `|${image}\n`
     }
   }
-  filterOutput += `! #### ${keyword} END ####\n`
+  filterOutput += `\n`
+}
+
+/**
+ * 말머리 차단
+ */
+for (const headword of banConfig.headword) {
+  filterOutput += `! # [말머리 차단] ${headword} 차단\n`
+  filterOutput += `! ########\n`
+  filterOutput += `! ## ${headword} 말머리 차단\n`
+  filterOutput += getKeywordHeadFilter(headword)
+  filterOutput += `\n`
 }
 
 // 최종 출력

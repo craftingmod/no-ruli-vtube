@@ -1,6 +1,7 @@
 import { keywordPath, loginRuli, ruli, iconSharePath } from "./constants.mjs"
 import { load as loadio } from "cheerio"
 import puppeteer from "puppeteer"
+import fs from "node:fs/promises"
 
 /**
  * 스티커 목록 받아오기
@@ -139,4 +140,13 @@ export async function login() {
  */
 export async function sleep(ms) {
   return new Promise((res, rej) => setTimeout(res, ms))
+}
+
+/**
+ * 
+ * @param {string} fileName 
+ * @returns {Promise<string[]>}
+ */
+export async function readList(fileName) {
+  return (await fs.readFile(`../list/${fileName}.txt`, {encoding: "utf8"})).split("\n").filter((v) => v.length > 0)
 }
