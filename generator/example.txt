@@ -1,0 +1,112 @@
+! ######### 예시 ########
+! Homepage: https://github.com/craftingmod/no-ruli-vtube
+! License: CC0
+! Title: No Ruli VTuber - Aggressive filter
+! Description: BLOCK ALL V-Tuber AD+Fandom Image
+! Expires: 7 days
+! Version: 20231026_1
+
+! PC
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(버튜버))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(남궁))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(루니))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(미루))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(이세돌))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(홀로))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(세아))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(샤샤))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(사사))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(근튜버))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(로제타))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(버미육))
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(마왕루야))
+
+! Mobile
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(버튜버))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(남궁))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(루니))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(미루))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(이세돌))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(홀로))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(세아))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(샤샤))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(사사))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(근튜버))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(로제타))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(버미육))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(마왕루야))
+
+! Emoticon
+bbs.ruliweb.com##.icon_data_show_target[title*='버튜버']
+bbs.ruliweb.com##.icon_data_show_target[title*='남궁']
+bbs.ruliweb.com##.icon_data_show_target[title*='루니']
+bbs.ruliweb.com##.icon_data_show_target[title*='미루']
+bbs.ruliweb.com##.icon_data_show_target[title*='이세돌']
+bbs.ruliweb.com##.icon_data_show_target[title*='홀로']
+bbs.ruliweb.com##.icon_data_show_target[title*='세아']
+bbs.ruliweb.com##.icon_data_show_target[title*='샤샤']
+bbs.ruliweb.com##.icon_data_show_target[title*='사사']
+bbs.ruliweb.com##.icon_data_show_target[title*='근튜버']
+bbs.ruliweb.com##.icon_data_show_target[title*='로제타']
+bbs.ruliweb.com##.icon_data_show_target[title*='버미육']
+bbs.ruliweb.com##.icon_data_show_target[title*='마망']
+bbs.ruliweb.com##.icon_data_show_target[title*='어노잉']
+
+m.ruliweb.com##.icon_data_show_target[title*='버튜버']
+m.ruliweb.com##.icon_data_show_target[title*='남궁']
+m.ruliweb.com##.icon_data_show_target[title*='루니']
+m.ruliweb.com##.icon_data_show_target[title*='미루']
+m.ruliweb.com##.icon_data_show_target[title*='이세돌']
+m.ruliweb.com##.icon_data_show_target[title*='홀로']
+m.ruliweb.com##.icon_data_show_target[title*='세아']
+m.ruliweb.com##.icon_data_show_target[title*='샤샤']
+m.ruliweb.com##.icon_data_show_target[title*='사사']
+m.ruliweb.com##.icon_data_show_target[title*='근튜버']
+m.ruliweb.com##.icon_data_show_target[title*='로제타']
+m.ruliweb.com##.icon_data_show_target[title*='버미육']
+m.ruliweb.com##.icon_data_show_target[title*='마망']
+m.ruliweb.com##.icon_data_show_target[title*='어노잉']
+
+! 2715, 2766, 3017, 2713
+! 황달
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2713"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2713"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2715"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2715"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3017"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3017"])
+
+! 3197, 3213, 3260, 3261
+! 하푸
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3197"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3197"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3213"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3213"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3260"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3260"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3261"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3261"])
+
+! 미루
+! 2432, 2748, 3040, 1917
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2432"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2432"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2748"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2748"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3040"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3040"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/1917"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/1917"])
+
+! 남궁
+! 3034, 2846
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3034"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3034"])
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2846"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2846"])
+
+! 종합
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2218"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2218"])

@@ -1,0 +1,5 @@
+! Homepage: https://github.com/craftingmod/no-ruli-vtube
+! License: CC0
+! Title: 루리웹 버튜버 차단
+! Description: 유게에서 버튜버 키워드 및 이모티콘을 차단합니다.
+! Expires: 7 days
