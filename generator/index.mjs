@@ -22,7 +22,7 @@ if (stoken == null) {
 let filterOutput = await fs.readFile("./basic.txt", {encoding: "utf8"})
 const nowDate = new Date(Date.now())
 // 버전
-filterOutput += `! Version: ${nowDate.getFullYear()}${nowDate.getMonth().toString().padStart(2, "0")}${nowDate.getDate().toString().padStart(2, "0")}_1\n`
+filterOutput += `! Version: ${nowDate.getFullYear()}${(nowDate.getMonth() + 1).toString().padStart(2, "0")}${nowDate.getDate().toString().padStart(2, "0")}_1\n`
 filterOutput += `! Generated with script.\n\n`
 
 /**
