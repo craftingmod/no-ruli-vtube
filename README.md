@@ -19,10 +19,11 @@ https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/aggressive.txt
 ```
 [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/aggressive.txt&title=No-Ruli-VTube-Aggressive)
 
-## IP-Show
-Show IP without clicking `IP Show`
+## Enhancer
+* Show IP without clicking `IP Show`
+* Icon UI Redesign
 
 ```
-https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/showip.txt
+https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/enhancer.txt
 ```
-[Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/showip.txt&title=Ruli-IP-Show)
+[Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/enhancer.txt&title=Ruli-Enhancer)
