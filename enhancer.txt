@@ -3,7 +3,7 @@
 ! Title: Ruli Enhancer
 ! Description: IP 숨김을 해제하고 이모티콘 설정을 트위킹합니다.
 ! Expires: 7 days
-! Version: 20231108_4
+! Version: 20231108_5
 
 
 ! IP Show
@@ -34,11 +34,11 @@ bbs.ruliweb.com#$#.icon_share_data > div:nth-child(2) > img { width: 92px!import
 !
 ! 내가 가진 아이콘 목록
 !
-m.ruliweb.com#$#.icon_share_list > div:nth-child(1) { flex-wrap: wrap; max-height: 30lvh; overflow-y: scroll; justify-content: center; }
+! m.ruliweb.com#$#.icon_share_list > div:nth-child(1) { flex-wrap: wrap; max-height: 30lvh; overflow-y: scroll; justify-content: center; }
 ! 삭제 버튼
 m.ruliweb.com#$#.icon_share_list > div:nth-child(1) > div > span { width: 4vw!important; height: 4vw!important; display: inline-flex; align-items: center; justify-content: center; font-size: 4vw!important; }
 ! 아이콘 크기 키우기
-m.ruliweb.com#$#.icon_data_show_target > img { width: 16vw!important; height: 16vw!important; max-width: inherit!important; }
+m.ruliweb.com#$#.icon_data_show_target > img { width: 18vw!important; height: 18vw!important; max-width: inherit!important; }
 
 !
 ! 아이콘 하나의 목록
