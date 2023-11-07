@@ -18,3 +18,11 @@ Use at your OWN RISK!
 https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/aggressive.txt
 ```
 [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/aggressive.txt&title=No-Ruli-VTube-Aggressive)
+
+## IP-Show
+Show IP without clicking `IP Show`
+
+```
+https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/showip.txt
+```
+[Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/showip.txt&title=Ruli-IP-Show)
