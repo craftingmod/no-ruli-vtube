@@ -3,7 +3,7 @@
 ! Title: Ruli Enhancer
 ! Description: IP 숨김을 해제하고 이모티콘 설정을 트위킹합니다.
 ! Expires: 7 days
-! Version: 20231108_1
+! Version: 20231108_2
 
 
 ! IP Show
@@ -36,7 +36,7 @@ bbs.ruliweb.com#$#.icon_share_data > div:nth-child(2) > img { width: 92px!import
 !
 m.ruliweb.com#$#.icon_share_list > div:nth-child(1) { flex-wrap: wrap; max-height: 30vh; overflow-y: scroll; justify-content: center; }
 ! 삭제 버튼
-m.ruliweb.com#$#.icon_share_list > div:nth-child(1) > div > span { width: 6vw!important; height: 6vw!important; display: inline-flex; align-items: center; justify-content: center; font-size: 5vw!important; }
+m.ruliweb.com#$#.icon_share_list > div:nth-child(1) > div > span { width: 4vw!important; height: 4vw!important; display: inline-flex; align-items: center; justify-content: center; font-size: 4vw!important; }
 ! 아이콘 크기 키우기
 m.ruliweb.com#$#.icon_data_show_target > img { width: 22vw!important; height: 22vw!important; max-width: inherit!important; }
 
@@ -47,4 +47,4 @@ m.ruliweb.com#$#.icon_share_data { max-height: 50vh; overflow-y: scroll; }
 ! 가운데 정렬
 m.ruliweb.com#$#.icon_share_data > div:nth-child(2) { display: flex!important; flex-wrap: wrap; justify-content: center; }
 ! 아이콘 크기 키우기
-m.ruliweb.com#$#.icon_share_data > div:nth-child(2) > img { width: 22vw!important; height: auto!important; max-width: inherit!important; }
+m.ruliweb.com#$#.icon_share_data > div:nth-child(2) > img { width: 20vw!important; height: auto!important; max-width: inherit!important; }
