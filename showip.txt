@@ -1,0 +1,11 @@
+! Homepage: https://github.com/craftingmod/no-ruli-vtube
+! License: The Unlicense
+! Title: Ruli IP-Show
+! Description: IP 숨김을 해제합니다.
+! Expires: 7 days
+! Version: 20231108_1
+
+bbs.ruliweb.com#$#.ip_show { display: initial!important; }
+bbs.ruliweb.com#$#.ip_hide { display: none; }
+m.ruliweb.com#$#.ip_show { display: initial!important; }
+m.ruliweb.com#$#.ip_hide { display: none; }

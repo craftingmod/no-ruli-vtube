@@ -1,9 +1,9 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
 ! License: The Unlicense
-! Title: No Ruli VTuber
-! Description: Block V-Tuber AD
+! Title: Ruli V-Tuber AD Block
+! Description: 사이트의 버튜버 인방 광고를 차단합니다.
 ! Expires: 7 days
-! Version: 20230926_1
+! Version: 20231108_1
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
@@ -33,3 +33,10 @@ m.ruliweb.com##.board_list_table > tbody > .notice:nth-child(2)
 
 bbs.ruliweb.com###board_read_mid_best
 m.ruliweb.com###bbs_reading_m
+
+! Remove IP Hide due to V-Tuber
+
+bbs.ruliweb.com#$#.ip_show { display: initial!important; }
+bbs.ruliweb.com#$#.ip_hide { display: none; }
+m.ruliweb.com#$#.ip_show { display: initial!important; }
+m.ruliweb.com#$#.ip_hide { display: none; }
