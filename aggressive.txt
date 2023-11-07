@@ -3,7 +3,7 @@
 ! Title: 루리웹 버튜버 차단
 ! Description: 유게에서 버튜버 키워드 및 이모티콘을 차단합니다.
 ! Expires: 7 days
-! Version: 20231030_1
+! Version: 20231107_1
 ! Generated with script.
 
 ! # [키워드 차단] 버튜버 차단
@@ -124,6 +124,13 @@ bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contain
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(도라선장))
 bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(도라선장))
 m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(도라선장))
+
+! # [키워드 차단] 도라점장 차단
+! ########
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(도라점장))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(도라점장))
+bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(도라점장))
+m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(도라점장))
 
 ! # [아이콘 차단] 버튜버 차단
 ! ########
@@ -807,6 +814,9 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i3.ruliweb.com/ori/23/10/26/18b6b715835e854.gif
 |https://i2.ruliweb.com/ori/23/10/26/18b6b7908bbe854.gif
 |https://i1.ruliweb.com/ori/23/10/26/18b6b7909f9e854.gif
+|https://i2.ruliweb.com/ori/23/11/05/18b9e85def2e854.gif
+|https://i3.ruliweb.com/ori/23/11/05/18b9e85e0ace854.gif
+|https://i1.ruliweb.com/ori/23/11/05/18b9e85e27fe854.gif
 ! ### 3034 : 어노잉 남궁루리 (키워드: 남궁)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3034"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3034"])
@@ -1048,6 +1058,13 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 ! ### 2766 : 랄룽 루니콘 디럭스 (키워드: 루니)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
+|https://i2.ruliweb.com/img/23/11/07/18ba53cc4675777ee.png
+|https://i1.ruliweb.com/img/23/11/05/18b9eb7014d5777ee.png
+|https://i1.ruliweb.com/img/23/11/02/18b8fef18d15777ee.png
+|https://i3.ruliweb.com/img/23/11/01/18b8b1287aa5777ee.png
+|https://i1.ruliweb.com/img/23/10/30/18b800c9f015777ee.png
+|https://i2.ruliweb.com/img/23/10/30/18b7ff0e5615777ee.png
+|https://i1.ruliweb.com/img/23/10/30/18b7ff0d1155777ee.png
 |https://i1.ruliweb.com/img/23/09/28/18adb1a11175777ee.png
 |https://i1.ruliweb.com/img/23/05/18/1882f4b06e25777ee.png
 |https://i3.ruliweb.com/img/23/05/18/1882e745cb35777ee.png
@@ -2161,6 +2178,8 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/img/23/10/03/18af541a1e61cee29.png
 |https://i2.ruliweb.com/img/23/10/01/18aea3e88161cee29.png
 |https://i2.ruliweb.com/ori/23/10/11/18b1e7d4e861cee29.gif
+|https://i3.ruliweb.com/img/23/10/31/18b85e8caeb1cee29.png
+|https://i2.ruliweb.com/img/23/11/03/18b959a69b41cee29.png
 |https://i3.ruliweb.com/ori/23/10/01/18aea3e9f2a1cee29.gif
 ! ### 3213 : R.로제타 (키워드: 로제타)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3213"])
@@ -2242,6 +2261,12 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/img/23/10/22/18b5652d2621cee29.png
 |https://i1.ruliweb.com/img/23/10/22/18b5652f4b51cee29.png
 |https://i2.ruliweb.com/img/23/10/25/18b628e38201cee29.png
+|https://i2.ruliweb.com/img/23/10/31/18b830b59bd1cee29.png
+|https://i1.ruliweb.com/img/23/10/31/18b830b684b1cee29.png
+|https://i3.ruliweb.com/img/23/10/31/18b830b77981cee29.png
+|https://i2.ruliweb.com/img/23/10/31/18b849acd481cee29.png
+|https://i1.ruliweb.com/ori/23/10/31/18b830b89e91cee29.gif
+|https://i2.ruliweb.com/ori/23/10/31/18b830ba2d21cee29.gif
 ! ### 3276 : 어노잉 도라 선장 (키워드: 어노잉)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3276"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3276"])
@@ -2255,6 +2280,7 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/ori/23/10/11/18b1ddd45c41cee29.gif
 |https://i1.ruliweb.com/ori/23/10/11/18b1dec31971cee29.gif
 |https://i1.ruliweb.com/ori/23/10/12/18b229744261cee29.gif
+|https://i3.ruliweb.com/ori/23/11/02/18b901a1fe01cee29.gif
 |https://i2.ruliweb.com/ori/23/10/11/18b1ef82da51cee29.gif
 ! ### 3260는 이미 추가됨
 ! ### 3197는 이미 추가됨
