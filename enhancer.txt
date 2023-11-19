@@ -3,7 +3,7 @@
 ! Title: Ruli Enhancer
 ! Description: IP 숨김을 해제하고 이모티콘 설정을 트위킹합니다.
 ! Expires: 7 days
-! Version: 20231108_5
+! Version: 20231120_1
 
 
 ! IP Show
@@ -11,6 +11,14 @@ bbs.ruliweb.com#$#.ip_show { display: initial!important; }
 bbs.ruliweb.com#$#.ip_hide { display: none; }
 m.ruliweb.com#$#.ip_show { display: initial!important; }
 m.ruliweb.com#$#.ip_hide { display: none; }
+
+! Original Image
+||bbs.ruliweb.com^$replace=/i1\.ruliweb\.com\/img\//i1.ruliweb.com\/ori\//i
+||m.ruliweb.com^$replace=/i1\.ruliweb\.com\/img\//i1.ruliweb.com\/ori\//i
+||bbs.ruliweb.com^$replace=/i2\.ruliweb\.com\/img\//i2.ruliweb.com\/ori\//i
+||m.ruliweb.com^$replace=/i2\.ruliweb\.com\/img\//i2.ruliweb.com\/ori\//i
+||bbs.ruliweb.com^$replace=/i3\.ruliweb\.com\/img\//i3.ruliweb.com\/ori\//i
+||m.ruliweb.com^$replace=/i3\.ruliweb\.com\/img\//i3.ruliweb.com\/ori\//i
 
 !
 ! PC - 내가 가진 아이콘 목록
