@@ -1,6 +1,6 @@
 import fs from "node:fs/promises"
 import { getCommentIconBlockFilter, getIconListBlockFilter, getKeywordBlockFilter, getKeywordHeadFilter, getKeywordTopBlockFilter, iconWhitePath, iconWordPath, keywordPath, loginRuli, ruli } from "./constants.mjs"
-import { login, parseSticker, queryStickers, readList } from "./utils.mjs"
+import { login, parseSticker, queryStickers, readList, sleep } from "./utils.mjs"
 import puppeteer from "puppeteer"
 
 /**

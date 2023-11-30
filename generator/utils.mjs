@@ -91,6 +91,7 @@ export async function parseSticker(token, stickerId) {
     }
   })
   if (response.status !== 200) {
+    console.log(reqURL)
     throw new Error("Response is not 200!")
   }
   /**

@@ -3,7 +3,7 @@
 ! Title: 루리웹 버튜버 차단
 ! Description: 유게에서 버튜버 키워드 및 이모티콘을 차단합니다.
 ! Expires: 7 days
-! Version: 20231128_1
+! Version: 20231201_1
 ! Generated with script.
 
 ! # [키워드 차단] 버튜버 차단
@@ -55,20 +55,6 @@ m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(
 bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(세아))
 m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(세아))
 
-! # [키워드 차단] 샤샤 차단
-! ########
-bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(샤샤))
-m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(샤샤))
-bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(샤샤))
-m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(샤샤))
-
-! # [키워드 차단] 사사 차단
-! ########
-bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(사사))
-m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(사사))
-bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(사사))
-m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(사사))
-
 ! # [키워드 차단] 근튜버 차단
 ! ########
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(근튜버))
@@ -110,6 +96,27 @@ bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contain
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(리노아))
 bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(리노아))
 m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(리노아))
+
+! # [키워드 차단] 라이브루리 차단
+! ########
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(라이브루리))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(라이브루리))
+bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(라이브루리))
+m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(라이브루리))
+
+! # [키워드 차단] 루리라이브 차단
+! ########
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(루리라이브))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(루리라이브))
+bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(루리라이브))
+m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(루리라이브))
+
+! # [키워드 차단] 사사고모 차단
+! ########
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(사사고모))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(사사고모))
+bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(사사고모))
+m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(사사고모))
 
 ! # [키워드 차단] 도라  차단
 ! ########
@@ -1121,6 +1128,10 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 ! ### 2766 : 랄룽 루니콘 디럭스 (키워드: 루니)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
+|https://i2.ruliweb.com/img/23/12/01/18c2105a1ad5777ee.png
+|https://i2.ruliweb.com/img/23/11/28/18c166c25405777ee.png
+|https://i1.ruliweb.com/img/23/11/28/18c166c152d5777ee.png
+|https://i3.ruliweb.com/img/23/11/28/18c165737cb5777ee.png
 |https://i1.ruliweb.com/img/23/11/24/18c01b89f705777ee.png
 |https://i3.ruliweb.com/img/23/11/16/18bd89afb665777ee.png
 |https://i3.ruliweb.com/img/23/11/15/18bd29837ce5777ee.png
@@ -1527,6 +1538,8 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i2.ruliweb.com/img/23/10/22/18b562843db523a69.jpeg
 |https://i3.ruliweb.com/img/23/11/18/18be168d3c0523a69.jpeg
 |https://i1.ruliweb.com/img/23/11/18/18be168d596523a69.jpeg
+|https://i1.ruliweb.com/img/23/11/29/18c16cad1c3523a69.jpg
+|https://i1.ruliweb.com/img/23/11/29/18c16cad392523a69.jpg
 |https://i2.ruliweb.com/ori/23/10/22/18b5627b88f523a69.gif
 |https://i3.ruliweb.com/ori/23/10/22/18b5627ba1d523a69.gif
 |https://i2.ruliweb.com/ori/23/10/22/18b5627bc42523a69.gif
@@ -2013,180 +2026,6 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/img/23/09/15/18a94cbb746368079.jpeg
 |https://i1.ruliweb.com/img/23/09/20/18ab12463d3368079.jpeg
 
-! # [아이콘 차단] 샤샤 차단
-! ########
-! ## 샤샤 아이콘 목록 차단
-bbs.ruliweb.com##.icon_data_show_target[title*='샤샤']
-m.ruliweb.com##.icon_data_show_target[title*='샤샤']
-! ## 샤샤 아이콘 표시 차단
-
-! # [아이콘 차단] 사사 차단
-! ########
-! ## 사사 아이콘 목록 차단
-bbs.ruliweb.com##.icon_data_show_target[title*='사사']
-m.ruliweb.com##.icon_data_show_target[title*='사사']
-! ## 사사 아이콘 표시 차단
-! ### 3172 : 망그러진 사사콘 (키워드: 사사)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3172"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3172"])
-|https://i1.ruliweb.com/img/23/08/17/18a03c932d0368079.jpeg
-|https://i1.ruliweb.com/img/23/08/17/18a03c9344f368079.jpeg
-|https://i2.ruliweb.com/img/23/08/17/18a03d2048d368079.jpg
-|https://i3.ruliweb.com/img/23/10/09/18b0fd76565368079.jpeg
-|https://i2.ruliweb.com/img/23/08/17/18a03c93842368079.jpeg
-|https://i3.ruliweb.com/img/23/08/17/18a03c93a59368079.jpeg
-|https://i2.ruliweb.com/img/23/08/17/18a03c93cc5368079.jpeg
-|https://i1.ruliweb.com/img/23/08/17/18a03df4860368079.jpeg
-|https://i2.ruliweb.com/img/23/08/17/18a03c93e31368079.jpeg
-|https://i2.ruliweb.com/img/23/08/17/18a03c9402d368079.jpeg
-|https://i1.ruliweb.com/img/23/08/17/18a03c94230368079.jpeg
-|https://i2.ruliweb.com/img/23/08/17/18a03c94426368079.jpeg
-|https://i2.ruliweb.com/img/23/08/17/18a03c946e4368079.jpeg
-|https://i1.ruliweb.com/img/23/08/17/18a03c948b7368079.jpeg
-|https://i3.ruliweb.com/img/23/08/17/18a03c94aaf368079.jpeg
-|https://i1.ruliweb.com/img/23/08/17/18a03c94cb1368079.jpeg
-|https://i1.ruliweb.com/img/23/08/17/18a03c94ea3368079.jpeg
-|https://i3.ruliweb.com/img/23/08/17/18a03c9509f368079.jpeg
-|https://i1.ruliweb.com/img/23/08/18/18a041791f3368079.jpeg
-|https://i2.ruliweb.com/img/23/09/20/18ab12e9d38368079.jpeg
-|https://i3.ruliweb.com/img/23/09/20/18ab1313768368079.jpeg
-|https://i1.ruliweb.com/img/23/09/27/18ad2f483e2368079.jpeg
-|https://i2.ruliweb.com/img/23/09/27/18ad2ec4131368079.jpeg
-|https://i1.ruliweb.com/img/23/09/27/18ad2ec42fa368079.jpeg
-|https://i1.ruliweb.com/img/23/09/27/18ad2ec44eb368079.jpeg
-|https://i2.ruliweb.com/img/23/09/27/18ad2f4b1f5368079.jpeg
-|https://i2.ruliweb.com/img/23/09/27/18ad2f4c875368079.jpeg
-|https://i2.ruliweb.com/img/23/10/29/18b7b600edf368079.jpeg
-|https://i2.ruliweb.com/img/23/10/29/18b7b6010c2368079.jpeg
-|https://i1.ruliweb.com/img/23/10/29/18b7b6011c5368079.jpeg
-|https://i3.ruliweb.com/img/23/09/27/18ad2f4f87a368079.jpeg
-|https://i3.ruliweb.com/img/23/10/29/18b7b795e5c368079.jpeg
-|https://i2.ruliweb.com/img/23/10/29/18b7b796594368079.jpeg
-|https://i3.ruliweb.com/img/23/09/27/18ad3005019368079.jpeg
-|https://i3.ruliweb.com/img/23/09/27/18ad303435d368079.jpeg
-|https://i1.ruliweb.com/img/23/09/27/18ad2f50e07368079.jpeg
-|https://i2.ruliweb.com/img/23/10/09/18b0fd6729b368079.jpeg
-! ### 3041 : 어노잉 사사 (키워드: 사사)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3041"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3041"])
-|https://i3.ruliweb.com/img/23/06/30/1890c24cc931cee29.png
-|https://i1.ruliweb.com/img/23/06/30/1890c24ec621cee29.jpg
-|https://i1.ruliweb.com/img/23/06/30/1890c24ff8e1cee29.png
-|https://i2.ruliweb.com/img/23/06/30/1890c25192f1cee29.png
-|https://i1.ruliweb.com/img/23/06/30/1890c75660c1cee29.png
-|https://i3.ruliweb.com/img/23/07/01/1890d16e2881cee29.png
-|https://i3.ruliweb.com/img/23/07/01/1890d3b74591cee29.png
-|https://i1.ruliweb.com/img/23/07/15/1895536ef3e1cee29.png
-|https://i2.ruliweb.com/img/23/07/03/1891b8eae4a1cee29.png
-|https://i2.ruliweb.com/img/23/07/06/1892b076b8d1cee29.png
-|https://i1.ruliweb.com/img/23/07/11/1894051ecfd1cee29.png
-|https://i3.ruliweb.com/img/23/07/11/189405202091cee29.jpg
-|https://i3.ruliweb.com/img/23/07/11/1894274c7001cee29.png
-|https://i2.ruliweb.com/img/23/07/12/189478e68811cee29.png
-|https://i3.ruliweb.com/img/23/07/12/189484486021cee29.png
-|https://i2.ruliweb.com/img/23/07/17/1895f428e991cee29.png
-|https://i2.ruliweb.com/img/23/07/17/1895f42a7961cee29.png
-|https://i3.ruliweb.com/img/23/08/20/18a0e5328011cee29.png
-|https://i2.ruliweb.com/ori/23/08/15/189f78f89bf1cee29.gif
-|https://i3.ruliweb.com/ori/23/09/17/18aa2bc41441cee29.gif
-! ### 3015 : 사사고모 표정 (키워드: 사사)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3015"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3015"])
-|https://i3.ruliweb.com/img/23/07/03/1891b7fa2d11cee29.png
-|https://i1.ruliweb.com/img/23/07/03/1891b8038871cee29.png
-|https://i2.ruliweb.com/img/23/07/03/1891b8061031cee29.png
-|https://i1.ruliweb.com/img/23/06/19/188d39ea8f01cee29.png
-|https://i1.ruliweb.com/img/23/07/03/1891b7a7aee1cee29.png
-|https://i1.ruliweb.com/img/23/07/03/1891b81f3401cee29.png
-|https://i3.ruliweb.com/ori/23/07/03/1891b85b7821cee29.gif
-|https://i2.ruliweb.com/ori/23/07/03/1891b89e3df1cee29.gif
-! ### 2952 : 사사고모 순애최고 (키워드: 사사)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2952"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2952"])
-|https://i1.ruliweb.com/ori/23/05/28/18861552044a72b7.gif
-! ### 2732 : 그림판 사사고모콘 (키워드: 사사)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2732"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2732"])
-|https://i1.ruliweb.com/img/23/03/10/186cb40d8014d0d42.png
-|https://i3.ruliweb.com/img/23/03/10/186cb40e98e4d0d42.png
-|https://i1.ruliweb.com/img/23/03/10/186cb40f3644d0d42.png
-|https://i1.ruliweb.com/img/23/03/10/186cb4108424d0d42.png
-|https://i3.ruliweb.com/img/23/03/10/186cb41118e4d0d42.png
-|https://i1.ruliweb.com/img/23/03/10/186cb412d6f4d0d42.png
-|https://i1.ruliweb.com/img/23/03/10/186cb413cac4d0d42.png
-|https://i1.ruliweb.com/img/23/03/19/186f941ae3e4d0d42.png
-|https://i3.ruliweb.com/img/23/03/10/186cb41934f4d0d42.png
-|https://i3.ruliweb.com/img/23/03/10/186cb419ae34d0d42.png
-|https://i3.ruliweb.com/img/23/03/10/186cb41a2c24d0d42.png
-|https://i2.ruliweb.com/img/23/03/10/186cb415cec4d0d42.png
-|https://i3.ruliweb.com/img/23/03/10/186cb4166174d0d42.png
-|https://i3.ruliweb.com/img/23/03/10/186cb416dc74d0d42.png
-|https://i2.ruliweb.com/img/23/03/10/186cb41d61c4d0d42.png
-|https://i1.ruliweb.com/img/23/03/10/186cb41e0164d0d42.png
-|https://i1.ruliweb.com/img/23/03/10/186cb41e9274d0d42.png
-|https://i2.ruliweb.com/img/23/03/10/186cb41fa144d0d42.png
-|https://i1.ruliweb.com/img/23/03/10/186cb420baf4d0d42.png
-|https://i2.ruliweb.com/img/23/03/10/186cb423bbf4d0d42.png
-|https://i3.ruliweb.com/img/23/10/16/18b380a5f0c4d0d42.png
-|https://i1.ruliweb.com/img/23/10/16/18b380a5f134d0d42.png
-|https://i2.ruliweb.com/img/23/10/16/18b380a5f124d0d42.png
-|https://i3.ruliweb.com/img/23/10/16/18b380a5f184d0d42.png
-|https://i1.ruliweb.com/img/23/10/16/18b380a5f044d0d42.png
-|https://i3.ruliweb.com/img/23/10/16/18b380ab0094d0d42.png
-|https://i2.ruliweb.com/img/23/10/16/18b380ab0644d0d42.png
-|https://i1.ruliweb.com/img/23/10/16/18b380aaffe4d0d42.png
-|https://i3.ruliweb.com/img/23/10/16/18b380ab0084d0d42.png
-|https://i3.ruliweb.com/img/23/10/16/18b380ab04f4d0d42.png
-|https://i2.ruliweb.com/img/23/10/16/18b380b40f44d0d42.png
-|https://i2.ruliweb.com/img/23/10/16/18b380b64384d0d42.png
-|https://i3.ruliweb.com/img/23/10/16/18b38195b804d0d42.png
-|https://i2.ruliweb.com/img/23/10/16/18b380b7e874d0d42.png
-|https://i3.ruliweb.com/img/23/10/16/18b380b976b4d0d42.png
-|https://i1.ruliweb.com/img/23/10/16/18b380b97704d0d42.png
-|https://i2.ruliweb.com/img/23/10/16/18b380b97ea4d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd2fda0a4d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd2fdbef4d0d42.png
-|https://i2.ruliweb.com/img/23/11/11/18bbd3009b64d0d42.png
-|https://i1.ruliweb.com/img/23/11/11/18bbd3019094d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd3026864d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd30396d4d0d42.png
-|https://i1.ruliweb.com/img/23/11/11/18bbd30592a4d0d42.png
-|https://i2.ruliweb.com/img/23/11/11/18bbd305b0a4d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd3077ce4d0d42.png
-|https://i1.ruliweb.com/img/23/11/11/18bbd30f9234d0d42.png
-|https://i1.ruliweb.com/img/23/11/11/18bbd3268284d0d42.png
-|https://i1.ruliweb.com/img/23/11/11/18bbd326b384d0d42.png
-|https://i2.ruliweb.com/img/23/11/11/18bbd3128024d0d42.png
-|https://i1.ruliweb.com/img/23/11/11/18bbd31aac84d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd31ab704d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd31ad6c4d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd31af784d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd3cd0e84d0d42.png
-|https://i2.ruliweb.com/img/23/11/11/18bbd31b1764d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd31b3624d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd31b54f4d0d42.png
-|https://i3.ruliweb.com/img/23/11/11/18bbd321b7d4d0d42.png
-|https://i2.ruliweb.com/img/23/11/11/18bbd3221d34d0d42.png
-|https://i2.ruliweb.com/img/23/11/11/18bbd32448d4d0d42.png
-|https://i1.ruliweb.com/img/23/11/11/18bbd3246954d0d42.png
-! ### 2724 : 동글동글 사사 콘 (키워드: 사사)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2724"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2724"])
-|https://i2.ruliweb.com/img/23/03/07/186b78c95df2fed9c.jpg
-|https://i2.ruliweb.com/img/23/03/07/186b78c9fef2fed9c.jpg
-|https://i2.ruliweb.com/img/23/03/07/186b78cafdd2fed9c.jpg
-|https://i1.ruliweb.com/img/23/03/07/186b78da49a2fed9c.jpg
-|https://i1.ruliweb.com/img/23/03/07/186b78d51052fed9c.png
-|https://i3.ruliweb.com/img/23/03/07/186b78d5a4b2fed9c.png
-|https://i1.ruliweb.com/img/23/03/07/186b78db6742fed9c.png
-|https://i1.ruliweb.com/ori/23/03/07/186b78beb1c2fed9c.gif
-|https://i1.ruliweb.com/ori/23/03/07/186b78bfbf32fed9c.gif
-|https://i2.ruliweb.com/ori/23/03/07/186b78c17512fed9c.gif
-|https://i1.ruliweb.com/ori/23/03/07/186b78d2ca52fed9c.gif
-|https://i2.ruliweb.com/ori/23/03/07/186b78c36592fed9c.gif
-|https://i1.ruliweb.com/ori/23/03/07/186b78c4d9c2fed9c.gif
-|https://i1.ruliweb.com/ori/23/03/17/186eff0c0292fed9c.gif
-
 ! # [아이콘 차단] 근튜버 차단
 ! ########
 ! ## 근튜버 아이콘 목록 차단
@@ -2220,6 +2059,17 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='로제타']
 m.ruliweb.com##.icon_data_show_target[title*='로제타']
 ! ## 로제타 아이콘 표시 차단
+! ### 3374 : 힘센 로제타 이모티콘 (키워드: 로제타)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3374"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3374"])
+|https://i3.ruliweb.com/img/23/11/29/18c1b174493187004.png
+|https://i2.ruliweb.com/img/23/11/29/18c1b174779187004.png
+|https://i3.ruliweb.com/img/23/11/29/18c1b1748e7187004.png
+|https://i1.ruliweb.com/img/23/11/29/18c1b174a21187004.png
+|https://i1.ruliweb.com/img/23/11/29/18c1b174b3e187004.png
+|https://i1.ruliweb.com/img/23/11/29/18c1b174d3e187004.png
+|https://i2.ruliweb.com/img/23/11/29/18c1b174e7b187004.png
+|https://i2.ruliweb.com/img/23/11/29/18c1b175169187004.png
 ! ### 3362 : 자작 로제타 콘 (키워드: 로제타)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3362"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3362"])
@@ -2249,6 +2099,8 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/img/23/11/25/18c05a6c4e13cafee.png
 |https://i1.ruliweb.com/img/23/11/25/18c05a6c6da3cafee.png
 |https://i3.ruliweb.com/img/23/11/27/18c0f07f25d3cafee.png
+|https://i2.ruliweb.com/img/23/11/30/18c1fa848b93cafee.jpg
+|https://i3.ruliweb.com/img/23/11/30/18c1fa84aa53cafee.jpg
 ! ### 3354 : 로제타 수녀님 짭창고콘 (키워드: 로제타)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3354"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3354"])
@@ -2259,30 +2111,32 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i2.ruliweb.com/img/23/11/20/18be87083a31831e5.png
 |https://i1.ruliweb.com/img/23/11/20/18be870853f1831e5.png
 |https://i2.ruliweb.com/img/23/11/20/18be87087321831e5.png
-|https://i3.ruliweb.com/img/23/11/24/18bfcef92ac1831e5.png
-|https://i1.ruliweb.com/img/23/11/24/18bfcef663c1831e5.png
-|https://i3.ruliweb.com/img/23/11/24/18bfcef20d81831e5.png
-|https://i2.ruliweb.com/img/23/11/20/18be8708f1a1831e5.png
-|https://i2.ruliweb.com/img/23/11/20/18be87091211831e5.png
-|https://i2.ruliweb.com/img/23/11/20/18be870930d1831e5.png
-|https://i1.ruliweb.com/img/23/11/20/18be87095161831e5.png
-|https://i1.ruliweb.com/img/23/11/20/18be87099091831e5.png
-|https://i2.ruliweb.com/img/23/11/20/18be8709afa1831e5.png
-|https://i3.ruliweb.com/img/23/11/20/18be8709cf21831e5.png
-|https://i2.ruliweb.com/img/23/11/21/18bf2405fa21831e5.png
-|https://i1.ruliweb.com/img/23/11/21/18bf240618c1831e5.png
-|https://i3.ruliweb.com/img/23/11/23/18bfa4e58dd1831e5.png
-|https://i1.ruliweb.com/img/23/11/23/18bfa4e5abe1831e5.png
-|https://i1.ruliweb.com/img/23/11/24/18c019fa8701831e5.png
-|https://i3.ruliweb.com/img/23/11/24/18c019faa331831e5.png
-|https://i1.ruliweb.com/img/23/11/24/18c019fac321831e5.png
-|https://i1.ruliweb.com/img/23/11/24/18c019fae431831e5.png
-|https://i1.ruliweb.com/img/23/11/24/18c019fb0241831e5.png
-|https://i3.ruliweb.com/img/23/11/24/18c019fb21a1831e5.png
-|https://i1.ruliweb.com/img/23/11/26/18c0ab1797e1831e5.png
-|https://i1.ruliweb.com/img/23/11/26/18c0ab176fc1831e5.png
-|https://i2.ruliweb.com/img/23/11/28/18c14fd35cc1831e5.png
-|https://i3.ruliweb.com/ori/23/11/20/18be87097071831e5.gif
+|https://i3.ruliweb.com/img/23/11/29/18c1aaeaae21831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1aaecbe31831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1aaef2481831e5.png
+|https://i1.ruliweb.com/img/23/11/29/18c1aaf2c7f1831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1aaf4cd41831e5.png
+|https://i2.ruliweb.com/img/23/11/29/18c1aaf60261831e5.png
+|https://i2.ruliweb.com/img/23/11/29/18c1aaf7b151831e5.png
+|https://i1.ruliweb.com/img/23/11/29/18c1aafb7371831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1aafd2181831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1aafe4e01831e5.png
+|https://i2.ruliweb.com/img/23/11/29/18c1aaffaef1831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1ab019091831e5.png
+|https://i2.ruliweb.com/img/23/11/29/18c1ab0a10b1831e5.png
+|https://i1.ruliweb.com/img/23/11/29/18c1ab0b4221831e5.png
+|https://i2.ruliweb.com/img/23/11/29/18c1ab472021831e5.png
+|https://i1.ruliweb.com/img/23/11/29/18c1ab48a941831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1ab4abe31831e5.png
+|https://i1.ruliweb.com/img/23/11/29/18c1ab4ca161831e5.png
+|https://i1.ruliweb.com/img/23/11/29/18c1ab4e0be1831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1ab4f7a61831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1ab52e901831e5.png
+|https://i2.ruliweb.com/img/23/11/29/18c1ab566ad1831e5.png
+|https://i2.ruliweb.com/img/23/11/29/18c1ab57f0e1831e5.png
+|https://i3.ruliweb.com/img/23/11/29/18c1ab5ac7f1831e5.png
+|https://i2.ruliweb.com/ori/23/11/29/18c1aaf94871831e5.gif
+|https://i1.ruliweb.com/ori/23/11/29/18c1b0b0fd41831e5.gif
 ! ### 3344 : 힘센 로제타콘 (키워드: 로제타)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3344"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3344"])
@@ -2509,7 +2363,29 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 ! ### 3260는 이미 추가됨
 ! ### 3197는 이미 추가됨
 ! ### 3097는 이미 추가됨
-! ### 3041는 이미 추가됨
+! ### 3041 : 어노잉 사사 (키워드: 어노잉)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3041"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3041"])
+|https://i3.ruliweb.com/img/23/06/30/1890c24cc931cee29.png
+|https://i1.ruliweb.com/img/23/06/30/1890c24ec621cee29.jpg
+|https://i1.ruliweb.com/img/23/06/30/1890c24ff8e1cee29.png
+|https://i2.ruliweb.com/img/23/06/30/1890c25192f1cee29.png
+|https://i1.ruliweb.com/img/23/06/30/1890c75660c1cee29.png
+|https://i3.ruliweb.com/img/23/07/01/1890d16e2881cee29.png
+|https://i3.ruliweb.com/img/23/07/01/1890d3b74591cee29.png
+|https://i1.ruliweb.com/img/23/07/15/1895536ef3e1cee29.png
+|https://i2.ruliweb.com/img/23/07/03/1891b8eae4a1cee29.png
+|https://i2.ruliweb.com/img/23/07/06/1892b076b8d1cee29.png
+|https://i1.ruliweb.com/img/23/07/11/1894051ecfd1cee29.png
+|https://i3.ruliweb.com/img/23/07/11/189405202091cee29.jpg
+|https://i3.ruliweb.com/img/23/07/11/1894274c7001cee29.png
+|https://i2.ruliweb.com/img/23/07/12/189478e68811cee29.png
+|https://i3.ruliweb.com/img/23/07/12/189484486021cee29.png
+|https://i2.ruliweb.com/img/23/07/17/1895f428e991cee29.png
+|https://i2.ruliweb.com/img/23/07/17/1895f42a7961cee29.png
+|https://i3.ruliweb.com/img/23/08/20/18a0e5328011cee29.png
+|https://i2.ruliweb.com/ori/23/08/15/189f78f89bf1cee29.gif
+|https://i3.ruliweb.com/ori/23/09/17/18aa2bc41441cee29.gif
 ! ### 3040는 이미 추가됨
 ! ### 3034는 이미 추가됨
 
@@ -2519,6 +2395,116 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='리노아']
 m.ruliweb.com##.icon_data_show_target[title*='리노아']
 ! ## 리노아 아이콘 표시 차단
+
+! # [아이콘 차단] 라이브루리 차단
+! ########
+! ## 라이브루리 아이콘 목록 차단
+bbs.ruliweb.com##.icon_data_show_target[title*='라이브루리']
+m.ruliweb.com##.icon_data_show_target[title*='라이브루리']
+! ## 라이브루리 아이콘 표시 차단
+
+! # [아이콘 차단] 루리라이브 차단
+! ########
+! ## 루리라이브 아이콘 목록 차단
+bbs.ruliweb.com##.icon_data_show_target[title*='루리라이브']
+m.ruliweb.com##.icon_data_show_target[title*='루리라이브']
+! ## 루리라이브 아이콘 표시 차단
+! ### 3376 : 잡탕 루리라이브콘 (키워드: 루리라이브)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3376"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3376"])
+|https://i3.ruliweb.com/img/23/11/30/18c1f5c34f04f5b55.png
+|https://i1.ruliweb.com/img/23/11/30/18c1f5c5a5c4f5b55.png
+|https://i3.ruliweb.com/img/23/11/30/18c1f5c36f44f5b55.png
+|https://i2.ruliweb.com/img/23/11/30/18c1f5c38df4f5b55.png
+|https://i1.ruliweb.com/img/23/11/30/18c1f5c3ae44f5b55.png
+|https://i3.ruliweb.com/img/23/11/30/18c1f5c3cdb4f5b55.png
+
+! # [아이콘 차단] 사사고모 차단
+! ########
+! ## 사사고모 아이콘 목록 차단
+bbs.ruliweb.com##.icon_data_show_target[title*='사사고모']
+m.ruliweb.com##.icon_data_show_target[title*='사사고모']
+! ## 사사고모 아이콘 표시 차단
+! ### 3015 : 사사고모 표정 (키워드: 사사고모)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3015"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3015"])
+|https://i3.ruliweb.com/img/23/07/03/1891b7fa2d11cee29.png
+|https://i1.ruliweb.com/img/23/07/03/1891b8038871cee29.png
+|https://i2.ruliweb.com/img/23/07/03/1891b8061031cee29.png
+|https://i1.ruliweb.com/img/23/06/19/188d39ea8f01cee29.png
+|https://i1.ruliweb.com/img/23/07/03/1891b7a7aee1cee29.png
+|https://i1.ruliweb.com/img/23/07/03/1891b81f3401cee29.png
+|https://i3.ruliweb.com/ori/23/07/03/1891b85b7821cee29.gif
+|https://i2.ruliweb.com/ori/23/07/03/1891b89e3df1cee29.gif
+! ### 2952 : 사사고모 순애최고 (키워드: 사사고모)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2952"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2952"])
+|https://i1.ruliweb.com/ori/23/05/28/18861552044a72b7.gif
+! ### 2732 : 그림판 사사고모콘 (키워드: 사사고모)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2732"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2732"])
+|https://i1.ruliweb.com/img/23/03/10/186cb40d8014d0d42.png
+|https://i3.ruliweb.com/img/23/03/10/186cb40e98e4d0d42.png
+|https://i1.ruliweb.com/img/23/03/10/186cb40f3644d0d42.png
+|https://i1.ruliweb.com/img/23/03/10/186cb4108424d0d42.png
+|https://i3.ruliweb.com/img/23/03/10/186cb41118e4d0d42.png
+|https://i1.ruliweb.com/img/23/03/10/186cb412d6f4d0d42.png
+|https://i1.ruliweb.com/img/23/03/10/186cb413cac4d0d42.png
+|https://i1.ruliweb.com/img/23/03/19/186f941ae3e4d0d42.png
+|https://i3.ruliweb.com/img/23/03/10/186cb41934f4d0d42.png
+|https://i3.ruliweb.com/img/23/03/10/186cb419ae34d0d42.png
+|https://i3.ruliweb.com/img/23/03/10/186cb41a2c24d0d42.png
+|https://i2.ruliweb.com/img/23/03/10/186cb415cec4d0d42.png
+|https://i3.ruliweb.com/img/23/03/10/186cb4166174d0d42.png
+|https://i3.ruliweb.com/img/23/03/10/186cb416dc74d0d42.png
+|https://i2.ruliweb.com/img/23/03/10/186cb41d61c4d0d42.png
+|https://i1.ruliweb.com/img/23/03/10/186cb41e0164d0d42.png
+|https://i1.ruliweb.com/img/23/03/10/186cb41e9274d0d42.png
+|https://i2.ruliweb.com/img/23/03/10/186cb41fa144d0d42.png
+|https://i1.ruliweb.com/img/23/03/10/186cb420baf4d0d42.png
+|https://i2.ruliweb.com/img/23/03/10/186cb423bbf4d0d42.png
+|https://i3.ruliweb.com/img/23/10/16/18b380a5f0c4d0d42.png
+|https://i1.ruliweb.com/img/23/10/16/18b380a5f134d0d42.png
+|https://i2.ruliweb.com/img/23/10/16/18b380a5f124d0d42.png
+|https://i3.ruliweb.com/img/23/10/16/18b380a5f184d0d42.png
+|https://i1.ruliweb.com/img/23/10/16/18b380a5f044d0d42.png
+|https://i3.ruliweb.com/img/23/10/16/18b380ab0094d0d42.png
+|https://i2.ruliweb.com/img/23/10/16/18b380ab0644d0d42.png
+|https://i1.ruliweb.com/img/23/10/16/18b380aaffe4d0d42.png
+|https://i3.ruliweb.com/img/23/10/16/18b380ab0084d0d42.png
+|https://i3.ruliweb.com/img/23/10/16/18b380ab04f4d0d42.png
+|https://i2.ruliweb.com/img/23/10/16/18b380b40f44d0d42.png
+|https://i2.ruliweb.com/img/23/10/16/18b380b64384d0d42.png
+|https://i3.ruliweb.com/img/23/10/16/18b38195b804d0d42.png
+|https://i2.ruliweb.com/img/23/10/16/18b380b7e874d0d42.png
+|https://i3.ruliweb.com/img/23/10/16/18b380b976b4d0d42.png
+|https://i1.ruliweb.com/img/23/10/16/18b380b97704d0d42.png
+|https://i2.ruliweb.com/img/23/10/16/18b380b97ea4d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd2fda0a4d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd2fdbef4d0d42.png
+|https://i2.ruliweb.com/img/23/11/11/18bbd3009b64d0d42.png
+|https://i1.ruliweb.com/img/23/11/11/18bbd3019094d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd3026864d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd30396d4d0d42.png
+|https://i1.ruliweb.com/img/23/11/11/18bbd30592a4d0d42.png
+|https://i2.ruliweb.com/img/23/11/11/18bbd305b0a4d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd3077ce4d0d42.png
+|https://i1.ruliweb.com/img/23/11/11/18bbd30f9234d0d42.png
+|https://i1.ruliweb.com/img/23/11/11/18bbd3268284d0d42.png
+|https://i1.ruliweb.com/img/23/11/11/18bbd326b384d0d42.png
+|https://i2.ruliweb.com/img/23/11/11/18bbd3128024d0d42.png
+|https://i1.ruliweb.com/img/23/11/11/18bbd31aac84d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd31ab704d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd31ad6c4d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd31af784d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd3cd0e84d0d42.png
+|https://i2.ruliweb.com/img/23/11/11/18bbd31b1764d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd31b3624d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd31b54f4d0d42.png
+|https://i3.ruliweb.com/img/23/11/11/18bbd321b7d4d0d42.png
+|https://i2.ruliweb.com/img/23/11/11/18bbd3221d34d0d42.png
+|https://i2.ruliweb.com/img/23/11/11/18bbd32448d4d0d42.png
+|https://i1.ruliweb.com/img/23/11/11/18bbd3246954d0d42.png
 
 ! # [아이콘 차단] 도라 차단
 ! ########
@@ -2750,6 +2736,7 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i3.ruliweb.com/cmt/23/10/26/18b684249de11b767.gif
 |https://i1.ruliweb.com/cmt/23/10/26/18b6842334b11b767.gif
 |https://i3.ruliweb.com/cmt/23/10/26/18b6c09e81811b767.gif
+|https://i1.ruliweb.com/cmt/23/11/30/18c1f89d28a11b767.gif
 |https://i2.ruliweb.com/cmt/23/06/13/188b51b32f611b767.gif
 |https://i1.ruliweb.com/cmt/22/09/20/18356b1159011b767.png
 |https://i2.ruliweb.com/cmt/22/09/20/18356b13d3711b767.png
@@ -2834,9 +2821,260 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i2.ruliweb.com/cmt/20/06/01/1726f26e69851b5ad.jpg
 |https://i3.ruliweb.com/cmt/20/06/01/1726f27094d51b5ad.jpg
 
+! # [아이콘 차단] 마망 차단
+! ########
+! ## 마망 아이콘 목록 차단
+bbs.ruliweb.com##.icon_data_show_target[title*='마망']
+m.ruliweb.com##.icon_data_show_target[title*='마망']
+! ## 마망 아이콘 표시 차단
+! ### 3286 : 쪼꼬마망 Rebirth(working) (키워드: 마망)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3286"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3286"])
+|https://i2.ruliweb.com/img/23/10/15/18b32691ae84c2382.png
+|https://i2.ruliweb.com/img/23/10/15/18b32691cbc4c2382.png
+|https://i2.ruliweb.com/img/23/10/22/18b52f1bf3b4c2382.png
+! ### 2846는 이미 추가됨
+! ### 2735 : 쪼꼬마망 콘(2) (키워드: 마망)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2735"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2735"])
+|https://i3.ruliweb.com/img/23/03/12/186d5b4b83d4c2382.png
+|https://i3.ruliweb.com/img/23/03/12/186d5b4bc974c2382.png
+|https://i3.ruliweb.com/img/23/03/12/186d5b4bbc34c2382.png
+|https://i1.ruliweb.com/img/23/03/12/186d5b4bdc14c2382.png
+|https://i2.ruliweb.com/img/23/03/12/186d5b4bfc54c2382.png
+|https://i1.ruliweb.com/img/23/03/12/186d5b4c1ba4c2382.png
+|https://i2.ruliweb.com/img/23/03/12/186d5b4c3cb4c2382.png
+|https://i3.ruliweb.com/img/23/03/12/186d5b4c5b44c2382.png
+|https://i3.ruliweb.com/img/23/03/12/186d5b4c7b34c2382.png
+|https://i2.ruliweb.com/img/23/03/12/186d5b4c9ad4c2382.png
+|https://i2.ruliweb.com/img/23/03/12/186d5b6e9a24c2382.png
+|https://i3.ruliweb.com/img/23/03/12/186d5b6eb5f4c2382.png
+|https://i2.ruliweb.com/img/23/03/12/186d5b6ed504c2382.png
+|https://i3.ruliweb.com/img/23/03/12/186d5b6ef5e4c2382.png
+|https://i2.ruliweb.com/img/23/03/22/18708be5ce24c2382.png
+|https://i2.ruliweb.com/img/23/03/12/186d5b6f1444c2382.png
+|https://i1.ruliweb.com/img/23/03/22/18708be62a84c2382.png
+|https://i2.ruliweb.com/img/23/03/15/186e17ac9e84c2382.png
+|https://i3.ruliweb.com/img/23/03/22/18708be60b14c2382.png
+|https://i2.ruliweb.com/img/23/03/22/18708be5eb74c2382.png
+|https://i1.ruliweb.com/img/23/03/22/18708be64a74c2382.png
+|https://i3.ruliweb.com/img/23/08/12/189e878b1f34c2382.png
+! ### 2652 : 쪼꼬마망 콘(1) (키워드: 마망)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2652"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2652"])
+|https://i3.ruliweb.com/img/23/02/09/18635b1c46e4c2382.png
+|https://i1.ruliweb.com/img/23/02/09/18635b1c6384c2382.png
+|https://i2.ruliweb.com/img/23/02/09/18635b1c82c4c2382.png
+|https://i1.ruliweb.com/img/23/02/09/18635b1ca3f4c2382.png
+|https://i2.ruliweb.com/img/23/02/15/186510ce6874c2382.png
+|https://i3.ruliweb.com/img/23/02/09/18635b1ce184c2382.png
+|https://i1.ruliweb.com/img/23/02/09/18635b1d0114c2382.png
+|https://i2.ruliweb.com/img/23/02/09/18635b1d2054c2382.png
+|https://i2.ruliweb.com/img/23/02/11/1863c5d297b4c2382.png
+|https://i1.ruliweb.com/img/23/02/11/1863c5d2ce74c2382.png
+|https://i1.ruliweb.com/img/23/02/11/1863c6297014c2382.png
+|https://i1.ruliweb.com/img/23/02/11/1863c5d2f5b4c2382.png
+|https://i2.ruliweb.com/img/23/02/11/1863f8bf5524c2382.png
+|https://i3.ruliweb.com/img/23/02/11/1863f8bf7304c2382.png
+|https://i3.ruliweb.com/img/23/02/11/1863f8bfb9c4c2382.png
+|https://i1.ruliweb.com/img/23/10/15/18b3278d56c4c2382.png
+|https://i3.ruliweb.com/img/23/10/15/18b3278d7344c2382.png
+|https://i1.ruliweb.com/img/23/10/15/18b3278d92a4c2382.png
+! ### 2218 : 그림판 마망콘 (키워드: 마망)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2218"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2218"])
+|https://i1.ruliweb.com/img/22/11/27/184b49b07f04d0d42.png
+|https://i2.ruliweb.com/img/22/11/27/184b49b0bbb4d0d42.png
+|https://i3.ruliweb.com/img/22/11/27/184b49b0db54d0d42.png
+|https://i3.ruliweb.com/img/22/11/27/184b49b09cd4d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49b0fb44d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49b54c24d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49b53004d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49b5cb94d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49b5eaf4d0d42.png
+|https://i2.ruliweb.com/img/22/11/27/184b4abaa9f4d0d42.jpg
+|https://i1.ruliweb.com/img/22/11/27/184b49b58bd4d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49b5abc4d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49b56c24d0d42.png
+|https://i2.ruliweb.com/img/22/11/27/184b49b60b44d0d42.png
+|https://i3.ruliweb.com/img/22/11/27/184b49cf21b4d0d42.png
+|https://i2.ruliweb.com/img/22/11/27/184b49cf4004d0d42.png
+|https://i1.ruliweb.com/img/22/11/27/184b49cf6014d0d42.png
+|https://i2.ruliweb.com/img/22/11/27/184b49cf7fc4d0d42.png
+|https://i2.ruliweb.com/img/22/11/27/184b9471c534d0d42.png
+|https://i2.ruliweb.com/img/22/11/29/184c33892134d0d42.png
+|https://i3.ruliweb.com/img/22/11/29/184c338a13c4d0d42.png
+|https://i2.ruliweb.com/img/22/11/29/184c33605f34d0d42.png
+|https://i2.ruliweb.com/img/22/11/29/184c33610724d0d42.png
+|https://i2.ruliweb.com/img/22/11/29/184c337d3174d0d42.png
+|https://i3.ruliweb.com/img/22/11/29/184c337f2474d0d42.png
+|https://i2.ruliweb.com/img/22/11/29/184c33804724d0d42.png
+|https://i2.ruliweb.com/img/22/11/29/184c33812664d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d287ea564d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d287f3f94d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d28b51ca4d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d28b68da4d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d28bbd3e4d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d2882f034d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d288384f4d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d28842c94d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d28876354d0d42.png
+|https://i1.ruliweb.com/img/22/12/11/1850143e9dc4d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d2884d4a4d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d28855774d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d288f1914d0d42.png
+|https://i3.ruliweb.com/img/22/12/03/184d736b1454d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d2893f8d4d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d28960c24d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d289adc04d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d289942d4d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d289ef064d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d289f98b4d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d28a07314d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d289d2894d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d28aa6724d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d28aa8574d0d42.png
+|https://i3.ruliweb.com/img/22/12/02/184d28aaa774d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d28aac4c4d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d28aae474d0d42.png
+|https://i2.ruliweb.com/img/22/12/02/184d28b0dda4d0d42.png
+|https://i1.ruliweb.com/img/22/12/02/184d28b21f44d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/1850134ce274d0d42.png
+|https://i1.ruliweb.com/img/22/12/11/1850134d00d4d0d42.png
+|https://i1.ruliweb.com/img/22/12/11/185013521464d0d42.png
+|https://i2.ruliweb.com/img/22/12/11/1850134f3d64d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/1850134f5c14d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/1850134f7c34d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/185013593754d0d42.png
+|https://i1.ruliweb.com/img/22/12/11/185013595724d0d42.png
+|https://i2.ruliweb.com/img/22/12/11/1850135b1364d0d42.png
+|https://i2.ruliweb.com/img/22/12/11/1850135c8284d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/1850135e0294d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/1850135e22b4d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/1850135fed04d0d42.png
+|https://i1.ruliweb.com/img/22/12/11/1850136119e4d0d42.png
+|https://i3.ruliweb.com/img/22/12/11/185013613964d0d42.png
+|https://i1.ruliweb.com/img/22/12/16/1851a788a664d0d42.png
+|https://i3.ruliweb.com/img/22/12/16/1851a788cb94d0d42.png
+|https://i2.ruliweb.com/img/22/12/16/1851a78a2a54d0d42.png
+|https://i1.ruliweb.com/img/22/12/16/1851a78a4984d0d42.png
+|https://i2.ruliweb.com/img/22/12/21/185344b3f464d0d42.png
+|https://i2.ruliweb.com/img/22/12/21/185344b5ceb4d0d42.png
+|https://i1.ruliweb.com/img/22/12/21/185344b3ebe4d0d42.png
+|https://i1.ruliweb.com/img/22/12/21/185344b40bb4d0d42.png
+|https://i2.ruliweb.com/img/22/12/21/185344b45fe4d0d42.png
+|https://i1.ruliweb.com/img/22/12/21/185344cdc374d0d42.png
+|https://i2.ruliweb.com/img/22/12/21/185344b44b44d0d42.png
+|https://i3.ruliweb.com/img/22/12/26/1854e296d974d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/185584cef404d0d42.png
+|https://i1.ruliweb.com/img/22/12/28/185584f6a084d0d42.png
+|https://i1.ruliweb.com/img/22/12/28/185584cfc5e4d0d42.png
+|https://i2.ruliweb.com/img/22/12/28/185584f50174d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/185584d1a1d4d0d42.png
+|https://i2.ruliweb.com/img/22/12/28/185584d31564d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/185584d49254d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/185584e7e004d0d42.png
+|https://i2.ruliweb.com/img/22/12/28/185584d5bed4d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/185584ea7194d0d42.png
+|https://i1.ruliweb.com/img/22/12/28/185584d76cd4d0d42.png
+|https://i1.ruliweb.com/img/22/12/28/185584ec1d24d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/185584d93134d0d42.png
+|https://i2.ruliweb.com/img/22/12/28/185584ede6e4d0d42.png
+|https://i2.ruliweb.com/img/22/12/28/185584db3804d0d42.png
+|https://i1.ruliweb.com/img/22/12/28/185584ef7ef4d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/1855856048f4d0d42.png
+|https://i3.ruliweb.com/img/22/12/28/185584f0a0a4d0d42.png
+|https://i2.ruliweb.com/img/22/12/31/185682fe64d4d0d42.png
+|https://i1.ruliweb.com/img/22/12/31/185682ff3084d0d42.png
+|https://i3.ruliweb.com/img/23/01/14/185afaf92244d0d42.png
+|https://i3.ruliweb.com/img/23/01/14/185afb13f4d4d0d42.png
+|https://i3.ruliweb.com/img/23/01/14/185afb00b104d0d42.png
+|https://i1.ruliweb.com/img/23/01/14/185afb01fbd4d0d42.png
+|https://i2.ruliweb.com/img/23/01/14/185afb052454d0d42.png
+|https://i2.ruliweb.com/img/23/01/14/185afb0c2014d0d42.png
+|https://i2.ruliweb.com/img/23/01/14/185afb0de064d0d42.png
+|https://i3.ruliweb.com/img/23/01/14/185afb10f0d4d0d42.png
+|https://i2.ruliweb.com/img/23/01/14/185afb11e934d0d42.png
+|https://i3.ruliweb.com/img/23/01/14/185afafbddb4d0d42.png
+|https://i3.ruliweb.com/img/23/01/14/185afafeb3e4d0d42.png
+
+! # [아이콘 차단] 사사 차단
+! ########
+! ## 사사 아이콘 목록 차단
+bbs.ruliweb.com##.icon_data_show_target[title*='사사']
+m.ruliweb.com##.icon_data_show_target[title*='사사']
+! ## 사사 아이콘 표시 차단
+! ### 3172 : 망그러진 사사콘 (키워드: 사사)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3172"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3172"])
+|https://i1.ruliweb.com/img/23/08/17/18a03c932d0368079.jpeg
+|https://i1.ruliweb.com/img/23/08/17/18a03c9344f368079.jpeg
+|https://i2.ruliweb.com/img/23/08/17/18a03d2048d368079.jpg
+|https://i3.ruliweb.com/img/23/10/09/18b0fd76565368079.jpeg
+|https://i2.ruliweb.com/img/23/08/17/18a03c93842368079.jpeg
+|https://i3.ruliweb.com/img/23/08/17/18a03c93a59368079.jpeg
+|https://i2.ruliweb.com/img/23/08/17/18a03c93cc5368079.jpeg
+|https://i1.ruliweb.com/img/23/08/17/18a03df4860368079.jpeg
+|https://i2.ruliweb.com/img/23/08/17/18a03c93e31368079.jpeg
+|https://i2.ruliweb.com/img/23/08/17/18a03c9402d368079.jpeg
+|https://i1.ruliweb.com/img/23/08/17/18a03c94230368079.jpeg
+|https://i2.ruliweb.com/img/23/08/17/18a03c94426368079.jpeg
+|https://i2.ruliweb.com/img/23/08/17/18a03c946e4368079.jpeg
+|https://i1.ruliweb.com/img/23/08/17/18a03c948b7368079.jpeg
+|https://i3.ruliweb.com/img/23/08/17/18a03c94aaf368079.jpeg
+|https://i1.ruliweb.com/img/23/08/17/18a03c94cb1368079.jpeg
+|https://i1.ruliweb.com/img/23/08/17/18a03c94ea3368079.jpeg
+|https://i3.ruliweb.com/img/23/08/17/18a03c9509f368079.jpeg
+|https://i1.ruliweb.com/img/23/08/18/18a041791f3368079.jpeg
+|https://i2.ruliweb.com/img/23/09/20/18ab12e9d38368079.jpeg
+|https://i3.ruliweb.com/img/23/09/20/18ab1313768368079.jpeg
+|https://i1.ruliweb.com/img/23/09/27/18ad2f483e2368079.jpeg
+|https://i2.ruliweb.com/img/23/09/27/18ad2ec4131368079.jpeg
+|https://i1.ruliweb.com/img/23/09/27/18ad2ec42fa368079.jpeg
+|https://i1.ruliweb.com/img/23/09/27/18ad2ec44eb368079.jpeg
+|https://i2.ruliweb.com/img/23/09/27/18ad2f4b1f5368079.jpeg
+|https://i2.ruliweb.com/img/23/09/27/18ad2f4c875368079.jpeg
+|https://i2.ruliweb.com/img/23/10/29/18b7b600edf368079.jpeg
+|https://i2.ruliweb.com/img/23/10/29/18b7b6010c2368079.jpeg
+|https://i1.ruliweb.com/img/23/10/29/18b7b6011c5368079.jpeg
+|https://i3.ruliweb.com/img/23/09/27/18ad2f4f87a368079.jpeg
+|https://i3.ruliweb.com/img/23/10/29/18b7b795e5c368079.jpeg
+|https://i2.ruliweb.com/img/23/10/29/18b7b796594368079.jpeg
+|https://i3.ruliweb.com/img/23/09/27/18ad3005019368079.jpeg
+|https://i3.ruliweb.com/img/23/09/27/18ad303435d368079.jpeg
+|https://i1.ruliweb.com/img/23/09/27/18ad2f50e07368079.jpeg
+|https://i2.ruliweb.com/img/23/10/09/18b0fd6729b368079.jpeg
+! ### 3041는 이미 추가됨
+! ### 3015는 이미 추가됨
+! ### 2952는 이미 추가됨
+! ### 2732는 이미 추가됨
+! ### 2724 : 동글동글 사사 콘 (키워드: 사사)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2724"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2724"])
+|https://i2.ruliweb.com/img/23/03/07/186b78c95df2fed9c.jpg
+|https://i2.ruliweb.com/img/23/03/07/186b78c9fef2fed9c.jpg
+|https://i2.ruliweb.com/img/23/03/07/186b78cafdd2fed9c.jpg
+|https://i1.ruliweb.com/img/23/03/07/186b78da49a2fed9c.jpg
+|https://i1.ruliweb.com/img/23/03/07/186b78d51052fed9c.png
+|https://i3.ruliweb.com/img/23/03/07/186b78d5a4b2fed9c.png
+|https://i1.ruliweb.com/img/23/03/07/186b78db6742fed9c.png
+|https://i1.ruliweb.com/ori/23/03/07/186b78beb1c2fed9c.gif
+|https://i1.ruliweb.com/ori/23/03/07/186b78bfbf32fed9c.gif
+|https://i2.ruliweb.com/ori/23/03/07/186b78c17512fed9c.gif
+|https://i1.ruliweb.com/ori/23/03/07/186b78d2ca52fed9c.gif
+|https://i2.ruliweb.com/ori/23/03/07/186b78c36592fed9c.gif
+|https://i1.ruliweb.com/ori/23/03/07/186b78c4d9c2fed9c.gif
+|https://i1.ruliweb.com/ori/23/03/17/186eff0c0292fed9c.gif
+
 ! # [말머리 차단] 도라 차단
 ! ########
 ! ## 도라 말머리 차단
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="=도라"])
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="=도라"])
+
+! # [말머리 차단] 사사 차단
+! ########
+! ## 사사 말머리 차단
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="=사사"])
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="=사사"])
 
