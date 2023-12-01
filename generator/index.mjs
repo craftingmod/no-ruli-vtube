@@ -1,5 +1,5 @@
 import fs from "node:fs/promises"
-import { getCommentIconBlockFilter, getIconListBlockFilter, getKeywordBlockFilter, getKeywordHeadFilter, getKeywordTopBlockFilter, iconWhitePath, iconWordPath, keywordPath, loginRuli, ruli } from "./constants.mjs"
+import { getCommentIconBlockFilter, getIconBlockFilter, getIconListBlockFilter, getKeywordBlockFilter, getKeywordHeadFilter, getKeywordTopBlockFilter, iconWhitePath, iconWordPath, keywordPath, loginRuli, ruli } from "./constants.mjs"
 import { login, parseSticker, queryStickers, readList, sleep } from "./utils.mjs"
 import puppeteer from "puppeteer"
 
@@ -76,11 +76,14 @@ for (const iconword of banConfig.iconword) {
     stickerHistory.add(sticker.id)
     filterOutput += `! ### ${sticker.id} : ${sticker.name} (키워드: ${iconword})\n`
     filterOutput += getCommentIconBlockFilter(sticker.id)
+    filterOutput += getIconBlockFilter(sticker.id)
     // 이미지 블럭 (실험적)
+    /*
     const images = await parseSticker(stoken, sticker.id)
     for (const image of images) {
       filterOutput += `|${image}\n`
     }
+    */
   }
   filterOutput += `\n`
 }

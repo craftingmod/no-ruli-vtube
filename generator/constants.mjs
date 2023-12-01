@@ -47,6 +47,16 @@ export function getCommentIconBlockFilter(iconId) {
 
 /**
  * 
+ * @param {number | string} iconId 
+ */
+export function getIconBlockFilter(iconId) {
+  return `|https://i1.ruliweb.com/*?icon=${iconId}|\n` +
+  `|https://i2.ruliweb.com/*?icon=${iconId}|\n` +
+  `|https://i3.ruliweb.com/*?icon=${iconId}|\n`
+}
+
+/**
+ * 
  * @param {string} keyword 
  */
 export function getKeywordHeadFilter(keyword) {
