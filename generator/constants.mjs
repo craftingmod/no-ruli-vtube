@@ -70,6 +70,6 @@ export function getKeywordHeadFilter(keyword) {
  * @returns 
  */
 export function getTuberFilter(keyword) {
-  return `bbs.ruliweb.com##.board_main > .board_list_table > tbody > tr:has(.divsn>a:contains(/^인방$/),.deco:contains(${keyword}))\n` +
+  return `bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.divsn>a:contains(/^인방$/),.deco:contains(${keyword}))\n` +
   `m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.cate_label:contains(인방),.subject_link:contains(${keyword}))\n`
 }
