@@ -105,7 +105,6 @@ for (const iconword of banConfig.iconword) {
  * 말머리 차단
  */
 for (const headword of banConfig.headword) {
-  break // Disable
   filterOutput += `! # [말머리 차단] ${headword} 차단\n`
   filterOutput += `! ########\n`
   filterOutput += `! ## ${headword} 말머리 차단\n`
