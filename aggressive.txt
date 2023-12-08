@@ -3,7 +3,7 @@
 ! Title: 루리웹 버튜버 차단
 ! Description: 유게에서 버튜버 키워드 및 이모티콘을 차단합니다.
 ! Expires: 7 days
-! Version: 20231208_3
+! Version: 20231208_4
 ! Generated with script.
 
 ! # [키워드 차단] 버튜버 차단
@@ -145,6 +145,13 @@ bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contain
 m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(아미규))
 bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(아미규))
 m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(아미규))
+
+! # [키워드 차단] 족토 차단
+! ########
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(족토))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(족토))
+bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(족토))
+m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(족토))
 
 ! # [인방텝 키워드 차단] 족토 차단
 ! ########

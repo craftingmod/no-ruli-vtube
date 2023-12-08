@@ -10,7 +10,7 @@ const totalWord = await readList("totalword")
 const banConfig = {
   keyword: [
     ...totalWord,
-    // ...await readList("keyword"),
+    ...await readList("keyword"),
   ],
   tuberword: [
     ...await readList("tuberword"),
