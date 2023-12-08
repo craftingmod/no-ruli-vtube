@@ -1,5 +1,5 @@
 import fs from "node:fs/promises"
-import { getCommentIconBlockFilter, getIconBlockFilter, getIconListBlockFilter, getKeywordBlockFilter, getKeywordHeadFilter, getKeywordTopBlockFilter, iconWhitePath, iconWordPath, keywordPath, loginRuli, ruli } from "./constants.mjs"
+import { getCommentIconBlockFilter, getIconBlockFilter, getIconListBlockFilter, getKeywordBlockFilter, getKeywordHeadFilter, getKeywordTopBlockFilter, getTuberFilter, iconWhitePath, iconWordPath, keywordPath, loginRuli, ruli } from "./constants.mjs"
 import { login, parseSticker, queryStickers, readList, sleep } from "./utils.mjs"
 import puppeteer from "puppeteer"
 
@@ -10,7 +10,10 @@ const totalWord = await readList("totalword")
 const banConfig = {
   keyword: [
     ...totalWord,
-    ...await readList("keyword"),
+    // ...await readList("keyword"),
+  ],
+  tuberword: [
+    ...await readList("tuberword"),
   ],
   iconword: [
     ...totalWord,
@@ -56,6 +59,16 @@ for (const keyword of banConfig.keyword) {
 }
 
 /**
+ * 2. 인방용 키워드 차단
+ */
+for (const keyword of banConfig.tuberword) {
+  filterOutput += `! # [인방텝 키워드 차단] ${keyword} 차단\n`
+  filterOutput += `! ########\n`
+  filterOutput += getTuberFilter(keyword)
+  filterOutput += `\n`
+}
+
+/**
  * 아이콘 차단
  */
 for (const iconword of banConfig.iconword) {
@@ -92,6 +105,7 @@ for (const iconword of banConfig.iconword) {
  * 말머리 차단
  */
 for (const headword of banConfig.headword) {
+  break // Disable
   filterOutput += `! # [말머리 차단] ${headword} 차단\n`
   filterOutput += `! ########\n`
   filterOutput += `! ## ${headword} 말머리 차단\n`

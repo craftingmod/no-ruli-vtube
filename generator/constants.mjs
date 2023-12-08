@@ -63,3 +63,13 @@ export function getKeywordHeadFilter(keyword) {
   return `bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="=${keyword}"])\n` +
   `m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(a[href$="=${keyword}"])\n`
 }
+
+/**
+ * 인방 말머리인 경우 키워드 차단
+ * @param {string} keyword 
+ * @returns 
+ */
+export function getTuberFilter(keyword) {
+  return `bbs.ruliweb.com##.board_main > .board_list_table > tbody > tr:has(.divsn>a:contains(/^인방$/),.deco:contains(${keyword}))\n` +
+  `m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.cate_label:contains(인방),.subject_link:contains(${keyword}))\n`
+}
