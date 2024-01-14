@@ -1,14 +1,14 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
 ! License: The Unlicense
-! Title: Ruli V-Tuber AD Block
-! Description: 사이트의 버튜버 인방 광고를 차단합니다.
+! Title: 루리웹 버튜버 광고 차단
+! Description: 루리웹의 버튜버 광고를 차단합니다. 유저가 쓰는 게시글은 차단하지 않습니다.
 ! Expires: 7 days
-! Version: 20231108_1
+! Version: 20240114_1
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
-! I should fix this..
-bbs.ruliweb.com###main_top_game_news2 > .widget_page_item:nth-child(6)
+! 헤더 차단
+bbs.ruliweb.com#?#.title_wrapper > a:has(.section_title:contains(버튜버))
 ! Temporal V-Tuber ad in header
 bbs.ruliweb.com###board_top > .row > .col > .border_box
 bbs.ruliweb.com###board_top > .row > .border_box
@@ -29,14 +29,16 @@ m.ruliweb.com##.board_main > .row > .border_box
 ! Notice AD
 m.ruliweb.com##.board_list_table > tbody > .notice:nth-child(2)
 
+! 하푸
+m.ruliweb.com##.swiper-slide:has(a[href$="/userboard/board/700351"])
+m.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700351"])
+bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700351"])
+! 도라 
+m.ruliweb.com##.swiper-slide:has(a[href$="/userboard/board/700363"])
+m.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700363"])
+bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700363"])
+
 ! In-Content filter
 
 bbs.ruliweb.com###board_read_mid_best
 m.ruliweb.com###bbs_reading_m
-
-! Remove IP Hide due to V-Tuber
-
-bbs.ruliweb.com#$#.ip_show { display: initial!important; }
-bbs.ruliweb.com#$#.ip_hide { display: none; }
-m.ruliweb.com#$#.ip_show { display: initial!important; }
-m.ruliweb.com#$#.ip_hide { display: none; }
