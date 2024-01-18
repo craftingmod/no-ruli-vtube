@@ -1,0 +1,9 @@
+! Homepage: https://github.com/craftingmod/no-ruli-vtube
+! License: CC0
+! Title: 붕탁 키워드 차단
+! Expires: 7 days
+! Version: 20240118_1
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(붕탁))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(붕탁))
+bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(붕탁))
+m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(붕탁))
