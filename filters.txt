@@ -1,9 +1,9 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
-! License: The Unlicense
+! License: CC0
 ! Title: 루리웹 버튜버 광고 차단
 ! Description: 루리웹의 버튜버 광고를 차단합니다. 유저가 쓰는 게시글은 차단하지 않습니다.
 ! Expires: 7 days
-! Version: 20240114_1
+! Version: 20240218_1
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
@@ -37,8 +37,16 @@ bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700351"])
 m.ruliweb.com##.swiper-slide:has(a[href$="/userboard/board/700363"])
 m.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700363"])
 bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700363"])
+! 샤샤
+m.ruliweb.com##.swiper-slide:has(a[href$="/userboard/board/700384"])
+m.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700384"])
+bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700384"])
 
 ! In-Content filter
 
 bbs.ruliweb.com###board_read_mid_best
 m.ruliweb.com###bbs_reading_m
+
+! 버튜버 게시판 상단 노출 차단
+bbs.ruliweb.com###overseas_vtuber_userinfo
+m.ruliweb.com###m_overseas_vtuber_userinfo
