@@ -3,7 +3,7 @@
 ! Title: 루리웹 버튜버 광고 차단
 ! Description: 루리웹의 버튜버 광고를 차단합니다. 유저가 쓰는 게시글은 차단하지 않습니다.
 ! Expires: 7 days
-! Version: 20240218_1
+! Version: 20240302_1
 
 ! PC
 bbs.ruliweb.com###main_top_game_news2 > div:last-child
@@ -41,6 +41,10 @@ bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700363"])
 m.ruliweb.com##.swiper-slide:has(a[href$="/userboard/board/700384"])
 m.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700384"])
 bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700384"])
+! 미치르
+m.ruliweb.com##.swiper-slide:has(a[href$="/userboard/board/700391"])
+m.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700391"])
+bbs.ruliweb.com##.quickmenu2_column:has(a[href$="/userboard/board/700391"])
 
 ! In-Content filter
 
