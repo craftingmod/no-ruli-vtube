@@ -3,7 +3,7 @@
 ! Title: 루리웹 버튜버 차단
 ! Description: 유게에서 버튜버 키워드 및 이모티콘을 차단합니다.
 ! Expires: 7 days
-! Version: 20240302_1
+! Version: 20240304_1
 ! Generated with script.
 
 ! # [키워드 차단] 버튜버 차단
@@ -255,6 +255,18 @@ m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.cate_label:con
 bbs.ruliweb.com##.icon_data_show_target[title*='버튜버']
 m.ruliweb.com##.icon_data_show_target[title*='버튜버']
 ! ## 버튜버 아이콘 표시 차단
+! ### 3577 : [남궁루리] 현세계버튜버 콘(4~6) (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3577"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3577"])
+|https://i1.ruliweb.com/*?icon=3577|
+|https://i2.ruliweb.com/*?icon=3577|
+|https://i3.ruliweb.com/*?icon=3577|
+! ### 3572 : [남궁루리] 현세계버튜버 콘(1~3) (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3572"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3572"])
+|https://i1.ruliweb.com/*?icon=3572|
+|https://i2.ruliweb.com/*?icon=3572|
+|https://i3.ruliweb.com/*?icon=3572|
 ! ### 3566 : 버튜버) 코우 마리야 콘 (키워드: 버튜버)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3566"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3566"])
@@ -556,6 +568,8 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='남궁']
 m.ruliweb.com##.icon_data_show_target[title*='남궁']
 ! ## 남궁 아이콘 표시 차단
+! ### 3577는 이미 추가됨
+! ### 3572는 이미 추가됨
 ! ### 3513 : 그림판 남궁근근콘 (키워드: 남궁)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3513"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3513"])
@@ -1238,6 +1252,12 @@ m.ruliweb.com##.icon_data_show_target[title*='루튜버']
 bbs.ruliweb.com##.icon_data_show_target[title*='황달']
 m.ruliweb.com##.icon_data_show_target[title*='황달']
 ! ## 황달 아이콘 표시 차단
+! ### 3578 : 겐고로 황달 짤 (키워드: 황달)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3578"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3578"])
+|https://i1.ruliweb.com/*?icon=3578|
+|https://i2.ruliweb.com/*?icon=3578|
+|https://i3.ruliweb.com/*?icon=3578|
 ! ### 3337는 이미 추가됨
 ! ### 3017 : 귀여운 황달콘 (키워드: 황달)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3017"])
