@@ -19,6 +19,9 @@ const banConfig = {
     ...totalWord,
     ...await readList("iconword"),
   ],
+  iconid: [
+    ...await readList("iconidban"),
+  ],
   headword: [
     ...await readList("headword"),
   ]
@@ -69,7 +72,22 @@ for (const keyword of banConfig.tuberword) {
 }
 
 /**
- * 아이콘 차단
+ * 아이콘 ID 차단 Function
+ * @type {(id: number, name?: string, iconword?: string) => Promise<unknown>}
+ */
+const addStickerBan = (id, name, iconword) => {
+  if (stickerHistory.has(id)) {
+    filterOutput += `! ### ${id}는 이미 추가됨\n`
+    return
+  }
+  stickerHistory.add(id)
+  filterOutput += `! ### ${id} : ${name ?? "없음"} (키워드: ${iconword ?? "없음"})\n`
+  filterOutput += getCommentIconBlockFilter(id)
+  filterOutput += getIconBlockFilter(id)
+}
+
+/**
+ * 키워드 아이콘 차단
  */
 for (const iconword of banConfig.iconword) {
   filterOutput += `! # [아이콘 차단] ${iconword} 차단\n`
@@ -80,24 +98,25 @@ for (const iconword of banConfig.iconword) {
 
   filterOutput += `! ## ${iconword} 아이콘 표시 차단\n`
   // 아이콘 목록 불러오기
+  /**
+   * @type {Array<{id: number, name: string}>}
+   */
   const stickers = await queryStickers(stoken, iconword)
+
   for (const sticker of stickers) {
-    if (stickerHistory.has(sticker.id)) {
-      filterOutput += `! ### ${sticker.id}는 이미 추가됨\n`
-      continue
-    }
-    stickerHistory.add(sticker.id)
-    filterOutput += `! ### ${sticker.id} : ${sticker.name} (키워드: ${iconword})\n`
-    filterOutput += getCommentIconBlockFilter(sticker.id)
-    filterOutput += getIconBlockFilter(sticker.id)
-    // 이미지 블럭 (실험적)
-    /*
-    const images = await parseSticker(stoken, sticker.id)
-    for (const image of images) {
-      filterOutput += `|${image}\n`
-    }
-    */
+    addStickerBan(sticker.id, sticker.name, iconword)
   }
+  filterOutput += `\n`
+}
+
+/**
+ * 아이콘 차단 (ID 직통)
+ */
+for (const iconId of banConfig.iconid) {
+  filterOutput += `! # [아이콘 ID 차단] ${iconId} 표시 차단\n`
+  filterOutput += `! ########\n`
+
+  addStickerBan(iconId)
   filterOutput += `\n`
 }
 
