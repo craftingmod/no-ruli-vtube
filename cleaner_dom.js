@@ -11,6 +11,35 @@
     progressDOM.textContent = str
   }
 
+  /**
+   * Blob export
+   * @param {Array<Record<string, unknown>>} objData Object Data
+   * @param {string} filename Filename
+   */
+  const exportData = (objData, filename) => {
+    if (objData.length <= 0) {
+      return
+    }
+    let csvText = Object.keys(objData[0]).join(",")
+    csvText += "\n"
+    for (const obj of objData) {
+      csvText += Object.values(obj).map((v) => {
+        return String(v)
+        .replace(/,/g, ".")
+        .replace(/\s+/ig, " ")
+      }).join(",")
+      csvText += "\n"
+    }
+    // download
+    const blob = new Blob([csvText], {type: "text/csv"})
+    const tempElement = document.createElement("a")
+    tempElement.href = URL.createObjectURL(blob)
+    tempElement.download = `${filename}.csv`
+    document.body.appendChild(tempElement)
+    tempElement.click()
+    document.body.removeChild(tempElement)
+  }
+
   const sleep = async (time) => {
     return new Promise((res, rej) => {
       setTimeout(res, time)
@@ -18,6 +47,11 @@
   }
 
   ///////////////////////////
+  /**
+   * 
+   * @param {string} url URL
+   * @returns Document object
+   */
   const fetchToDOM = async (url) => {
     const content = await fetch(url)
     if (content.status !== 200) {
@@ -27,7 +61,11 @@
     const parser = new DOMParser()
     return parser.parseFromString(text, "text/html")
   }
-
+  /**
+   * 
+   * @param {number} page Page number
+   * @returns Articles
+   */
   const parseArticles = async (page) => {
     const url = `https://${isMobile ? "m" : "bbs"}.ruliweb.com/member/mypage/myarticle?page=${page}`
     const dom = await fetchToDOM(url)
@@ -61,6 +99,11 @@
     return articles
   }
 
+  /**
+   * 
+   * @param {number} page Page number
+   * @returns Comments
+   */
   const parseComments = async (page) => {
     const url = `https://${isMobile ? "m" : "bbs"}.ruliweb.com/member/mypage/mycomment?page=${page}`
     const dom = await fetchToDOM(url)
@@ -111,9 +154,11 @@
     }
 
     updateCurrent(`게시글 삭제를 시작합니다.`)
+    exportData(removeArticles, "게시글_목록")
 
     const removeURL = `https://api.ruliweb.com/procDeleteMyArticle`
     const totalArticleCounts = removeArticles.length
+
     while (removeArticles.length > 0) {
       updateCurrent(`게시글을 삭제중입니다. (${totalArticleCounts - removeArticles.length}/${totalArticleCounts})`)
 
@@ -139,10 +184,13 @@
       })
       if (resp.status === 200) {
         removeArticles.splice(0, 20)
-        await sleep(200)
       } else {
-        console.error(await resp.text())
+        const errLog = await resp.text()
+        updateCurrent(`끄앙 오류입니다: ${errLog}`)
+        console.error(errLog)
+        await sleep(2000)
       }
+      await sleep(200)
     }
     updateCurrent(`게시글 삭제가 완료되었습니다.`)
   }
@@ -168,6 +216,9 @@
         console.error(err)
       }
     }
+
+    updateCurrent(`댓글 삭제를 시작합니다.`)
+    exportData(removeComments, "댓글_목록")
 
     const removeURL = `https://api.ruliweb.com/procDeleteMyComment`
     const totalCommentCounts = removeComments.length
@@ -198,7 +249,10 @@
       if (resp.status === 200) {
         removeComments.splice(0, 20)
       } else {
-        console.error(await resp.text())
+        const errLog = await resp.text()
+        updateCurrent(`끄앙 오류입니다: ${errLog}`)
+        console.error(errLog)
+        await sleep(2000)
       }
       await sleep(200)
     }
