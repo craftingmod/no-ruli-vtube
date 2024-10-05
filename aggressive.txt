@@ -3,7 +3,7 @@
 ! Title: 루리웹 버튜버 차단
 ! Description: 유게에서 버튜버 키워드 및 이모티콘을 차단합니다.
 ! Expires: 7 days
-! Version: 20240612_1
+! Version: 20241005_1
 ! Generated with script.
 
 ! # [키워드 차단] 버튜버 차단
@@ -244,6 +244,13 @@ m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(
 bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(루리카페))
 m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(루리카페))
 
+! # [키워드 차단] 냐루비 차단
+! ########
+bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(냐루비))
+m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.deco:contains(냐루비))
+bbs.ruliweb.com#?#.top_best > .list_wrapper > .row > .list > ul > li:has(.deco:contains(냐루비))
+m.ruliweb.com#?##board_top > .widget_body > .widget_bottom > ul > li:has(.deco:contains(냐루비))
+
 ! # [인방텝 키워드 차단] 족토 차단
 ! ########
 bbs.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.divsn>a:contains(/^인방$/),.deco:contains(족토))
@@ -290,7 +297,79 @@ m.ruliweb.com#?#.board_main > .board_list_table > tbody > tr:has(.cate_label:con
 bbs.ruliweb.com##.icon_data_show_target[title*='버튜버']
 m.ruliweb.com##.icon_data_show_target[title*='버튜버']
 ! ## 버튜버 아이콘 표시 차단
-! ### 3805 : 버튜버) 브이스포 코모리 메토 짭창콘 돚거 (키워드: 버튜버)
+! ### 4072 : 버튜버) 사쿠스 마요 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4072"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4072"])
+|https://i1.ruliweb.com/*?icon=4072|
+|https://i2.ruliweb.com/*?icon=4072|
+|https://i3.ruliweb.com/*?icon=4072|
+! ### 4069 : 버튜버)시라카와 시라세 움짤 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4069"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4069"])
+|https://i1.ruliweb.com/*?icon=4069|
+|https://i2.ruliweb.com/*?icon=4069|
+|https://i3.ruliweb.com/*?icon=4069|
+! ### 4031 : 버튜버)홀로라이브]초코 센세이션+기타 콘 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4031"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4031"])
+|https://i1.ruliweb.com/*?icon=4031|
+|https://i2.ruliweb.com/*?icon=4031|
+|https://i3.ruliweb.com/*?icon=4031|
+! ### 4028 : 버튜버) 아즈키 임시 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4028"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4028"])
+|https://i1.ruliweb.com/*?icon=4028|
+|https://i2.ruliweb.com/*?icon=4028|
+|https://i3.ruliweb.com/*?icon=4028|
+! ### 4002 : 버튜버) 오토노세 카나데 사카나콘 2 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4002"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4002"])
+|https://i1.ruliweb.com/*?icon=4002|
+|https://i2.ruliweb.com/*?icon=4002|
+|https://i3.ruliweb.com/*?icon=4002|
+! ### 4001 : 버튜버) 오토노세 카나데 사카나콘 1 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4001"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4001"])
+|https://i1.ruliweb.com/*?icon=4001|
+|https://i2.ruliweb.com/*?icon=4001|
+|https://i3.ruliweb.com/*?icon=4001|
+! ### 3980 : 버튜버) 내가 쓰려고 수정한 후부키 콘 돚거 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3980"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3980"])
+|https://i1.ruliweb.com/*?icon=3980|
+|https://i2.ruliweb.com/*?icon=3980|
+|https://i3.ruliweb.com/*?icon=3980|
+! ### 3927 : 버튜버) 버츄얼헤르츠 이큐제 밈 콘 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3927"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3927"])
+|https://i1.ruliweb.com/*?icon=3927|
+|https://i2.ruliweb.com/*?icon=3927|
+|https://i3.ruliweb.com/*?icon=3927|
+! ### 3910 : 버튜버)홀로-JP-게이머즈 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3910"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3910"])
+|https://i1.ruliweb.com/*?icon=3910|
+|https://i2.ruliweb.com/*?icon=3910|
+|https://i3.ruliweb.com/*?icon=3910|
+! ### 3885 : 버튜버) 아즈키 라인콘 돚거 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3885"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3885"])
+|https://i1.ruliweb.com/*?icon=3885|
+|https://i2.ruliweb.com/*?icon=3885|
+|https://i3.ruliweb.com/*?icon=3885|
+! ### 3865 : 버튜버)루이모콘 돚거 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3865"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3865"])
+|https://i1.ruliweb.com/*?icon=3865|
+|https://i2.ruliweb.com/*?icon=3865|
+|https://i3.ruliweb.com/*?icon=3865|
+! ### 3849 : 버튜버)구라 짭밋다콘 돚거 (키워드: 버튜버)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3849"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3849"])
+|https://i1.ruliweb.com/*?icon=3849|
+|https://i2.ruliweb.com/*?icon=3849|
+|https://i3.ruliweb.com/*?icon=3849|
+! ### 3805 : 버튜버) 브이스포 코모리 메토 짭창콘&짭밋콘 돚거(2024-08-31 수... (키워드: 버튜버)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3805"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3805"])
 |https://i1.ruliweb.com/*?icon=3805|
@@ -332,12 +411,6 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/*?icon=3745|
 |https://i2.ruliweb.com/*?icon=3745|
 |https://i3.ruliweb.com/*?icon=3745|
-! ### 3738 : 버튜버) 오토노세 카나데 사카나콘 (키워드: 버튜버)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3738"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3738"])
-|https://i1.ruliweb.com/*?icon=3738|
-|https://i2.ruliweb.com/*?icon=3738|
-|https://i3.ruliweb.com/*?icon=3738|
 ! ### 3725 : 버튜버)벨즈 짭창콘 돚거 (키워드: 버튜버)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3725"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3725"])
@@ -482,7 +555,7 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/*?icon=3415|
 |https://i2.ruliweb.com/*?icon=3415|
 |https://i3.ruliweb.com/*?icon=3415|
-! ### 3379 : 버튜버) 후레아 콘+라인 돚거 (2024-04-20 수정) (키워드: 버튜버)
+! ### 3379 : 버튜버) 후레아 콘+라인 돚거 (2024-08-08 수정) (키워드: 버튜버)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3379"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3379"])
 |https://i1.ruliweb.com/*?icon=3379|
@@ -712,12 +785,6 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i2.ruliweb.com/*?icon=3716|
 |https://i3.ruliweb.com/*?icon=3716|
 ! ### 3596는 이미 추가됨
-! ### 3593 : 힘쎄고 강한 MIGHTY 남궁근근 콘 ver.01 (키워드: 남궁)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3593"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3593"])
-|https://i1.ruliweb.com/*?icon=3593|
-|https://i2.ruliweb.com/*?icon=3593|
-|https://i3.ruliweb.com/*?icon=3593|
 ! ### 3577는 이미 추가됨
 ! ### 3572는 이미 추가됨
 ! ### 3513 : 그림판 남궁근근콘 (키워드: 남궁)
@@ -786,12 +853,6 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/*?icon=2846|
 |https://i2.ruliweb.com/*?icon=2846|
 |https://i3.ruliweb.com/*?icon=2846|
-! ### 2789 : 남궁루리 만우절 꼬꼬콘 (키워드: 남궁)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2789"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2789"])
-|https://i1.ruliweb.com/*?icon=2789|
-|https://i2.ruliweb.com/*?icon=2789|
-|https://i3.ruliweb.com/*?icon=2789|
 ! ### 2720 : 남궁루리콘(5) (키워드: 남궁)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2720"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2720"])
@@ -854,48 +915,12 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/*?icon=3581|
 |https://i2.ruliweb.com/*?icon=3581|
 |https://i3.ruliweb.com/*?icon=3581|
-! ### 3467 : 루니 프리미엄 회원 전용입니다. 짤 (키워드: 루니)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3467"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3467"])
-|https://i1.ruliweb.com/*?icon=3467|
-|https://i2.ruliweb.com/*?icon=3467|
-|https://i3.ruliweb.com/*?icon=3467|
 ! ### 3404 : 붕탁 루니 콘 (키워드: 루니)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3404"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3404"])
 |https://i1.ruliweb.com/*?icon=3404|
 |https://i2.ruliweb.com/*?icon=3404|
 |https://i3.ruliweb.com/*?icon=3404|
-! ### 3391 : 루니 짭창고콘 가화만사성 에디션(with 리노아) (키워드: 루니)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3391"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3391"])
-|https://i1.ruliweb.com/*?icon=3391|
-|https://i2.ruliweb.com/*?icon=3391|
-|https://i3.ruliweb.com/*?icon=3391|
-! ### 2766 : 랄룽 루니콘 디럭스 (키워드: 루니)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2766"])
-|https://i1.ruliweb.com/*?icon=2766|
-|https://i2.ruliweb.com/*?icon=2766|
-|https://i3.ruliweb.com/*?icon=2766|
-! ### 2765 : 랄룽 루니콘3 (키워드: 루니)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2765"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2765"])
-|https://i1.ruliweb.com/*?icon=2765|
-|https://i2.ruliweb.com/*?icon=2765|
-|https://i3.ruliweb.com/*?icon=2765|
-! ### 2756 : 랄룽 루니콘2 (키워드: 루니)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2756"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2756"])
-|https://i1.ruliweb.com/*?icon=2756|
-|https://i2.ruliweb.com/*?icon=2756|
-|https://i3.ruliweb.com/*?icon=2756|
-! ### 2746 : 랄룽 루니콘1 (키워드: 루니)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2746"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2746"])
-|https://i1.ruliweb.com/*?icon=2746|
-|https://i2.ruliweb.com/*?icon=2746|
-|https://i3.ruliweb.com/*?icon=2746|
 ! ### 2713 : 236a루니 (키워드: 루니)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2713"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2713"])
@@ -1002,6 +1027,14 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='홀로']
 m.ruliweb.com##.icon_data_show_target[title*='홀로']
 ! ## 홀로 아이콘 표시 차단
+! ### 4065 : EN 3기 홀로그라콘 (키워드: 홀로)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4065"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4065"])
+|https://i1.ruliweb.com/*?icon=4065|
+|https://i2.ruliweb.com/*?icon=4065|
+|https://i3.ruliweb.com/*?icon=4065|
+! ### 4031는 이미 추가됨
+! ### 3910는 이미 추가됨
 ! ### 3797는 이미 추가됨
 ! ### 3787 : 짤로 쓰기 좋은 홀로라이브 방송 스샷들 모음 (키워드: 홀로)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3787"])
@@ -1056,12 +1089,6 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i2.ruliweb.com/*?icon=2740|
 |https://i3.ruliweb.com/*?icon=2740|
 ! ### 2638는 이미 추가됨
-! ### 2234 : 홀로라이브 가우르구라 짭창고콘 돚거 (키워드: 홀로)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2234"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/2234"])
-|https://i1.ruliweb.com/*?icon=2234|
-|https://i2.ruliweb.com/*?icon=2234|
-|https://i3.ruliweb.com/*?icon=2234|
 ! ### 1966 : 홀로라이브 카엘라 동물콘 돚거콘 (키워드: 홀로)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/1966"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/1966"])
@@ -1082,12 +1109,6 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i3.ruliweb.com/*?icon=1847|
 ! ### 1717는 이미 추가됨
 ! ### 1716는 이미 추가됨
-! ### 1033 : 홀로라이브움짤 (키워드: 홀로)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/1033"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/1033"])
-|https://i1.ruliweb.com/*?icon=1033|
-|https://i2.ruliweb.com/*?icon=1033|
-|https://i3.ruliweb.com/*?icon=1033|
 
 ! # [아이콘 차단] 세아 차단
 ! ########
@@ -1187,7 +1208,13 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='로제타']
 m.ruliweb.com##.icon_data_show_target[title*='로제타']
 ! ## 로제타 아이콘 표시 차단
-! ### 3790 : 로제타 수녀님 팻말콘 (키워드: 로제타)
+! ### 4006 : 조활 로제타콘 (키워드: 로제타)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4006"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/4006"])
+|https://i1.ruliweb.com/*?icon=4006|
+|https://i2.ruliweb.com/*?icon=4006|
+|https://i3.ruliweb.com/*?icon=4006|
+! ### 3790 : 로제타 수녀님 팻말콘 + @ (키워드: 로제타)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3790"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3790"])
 |https://i1.ruliweb.com/*?icon=3790|
@@ -1318,6 +1345,12 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='리노아']
 m.ruliweb.com##.icon_data_show_target[title*='리노아']
 ! ## 리노아 아이콘 표시 차단
+! ### 3953 : 리노아와 가위바위보 놀이 콘+나쁜손 (키워드: 리노아)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3953"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3953"])
+|https://i1.ruliweb.com/*?icon=3953|
+|https://i2.ruliweb.com/*?icon=3953|
+|https://i3.ruliweb.com/*?icon=3953|
 ! ### 3807 : 그림판 리노아콘 (키워드: 리노아)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3807"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3807"])
@@ -1342,7 +1375,12 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/*?icon=3409|
 |https://i2.ruliweb.com/*?icon=3409|
 |https://i3.ruliweb.com/*?icon=3409|
-! ### 3391는 이미 추가됨
+! ### 3391 : 리노아 짭창고콘 (키워드: 리노아)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3391"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3391"])
+|https://i1.ruliweb.com/*?icon=3391|
+|https://i2.ruliweb.com/*?icon=3391|
+|https://i3.ruliweb.com/*?icon=3391|
 
 ! # [아이콘 차단] 라이브루리 차단
 ! ########
@@ -1350,6 +1388,12 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='라이브루리']
 m.ruliweb.com##.icon_data_show_target[title*='라이브루리']
 ! ## 라이브루리 아이콘 표시 차단
+! ### 3949 : 현장냥이 (좋았쓰 고양이) 라이브루리 패러디 (키워드: 라이브루리)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3949"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3949"])
+|https://i1.ruliweb.com/*?icon=3949|
+|https://i2.ruliweb.com/*?icon=3949|
+|https://i3.ruliweb.com/*?icon=3949|
 ! ### 3652 : 라이브루리 잡탕콘 ver 0.4 (키워드: 라이브루리)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3652"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3652"])
@@ -1536,19 +1580,13 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 |https://i1.ruliweb.com/*?icon=3651|
 |https://i2.ruliweb.com/*?icon=3651|
 |https://i3.ruliweb.com/*?icon=3651|
-! ### 3625 : 미치르 여왕님 돚거콘 (키워드: 미치르)
-bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3625"])
-m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3625"])
-|https://i1.ruliweb.com/*?icon=3625|
-|https://i2.ruliweb.com/*?icon=3625|
-|https://i3.ruliweb.com/*?icon=3625|
 ! ### 3606 : 미치르) 메르헨 피플콘 (키워드: 미치르)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3606"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3606"])
 |https://i1.ruliweb.com/*?icon=3606|
 |https://i2.ruliweb.com/*?icon=3606|
 |https://i3.ruliweb.com/*?icon=3606|
-! ### 3601 : 미치르 여왕님 이모티콘 2.1.5 업데이트 (월급루팡 에디션) (키워드: 미치르)
+! ### 3601 : 미치르 여왕님 이모티콘 3.0.0 업데이트 (키워드: 미치르)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3601"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3601"])
 |https://i1.ruliweb.com/*?icon=3601|
@@ -1618,7 +1656,6 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='여왕님']
 m.ruliweb.com##.icon_data_show_target[title*='여왕님']
 ! ## 여왕님 아이콘 표시 차단
-! ### 3625는 이미 추가됨
 ! ### 3601는 이미 추가됨
 
 ! # [아이콘 차단] 남궁근근 차단
@@ -1627,7 +1664,6 @@ m.ruliweb.com##.icon_data_show_target[title*='여왕님']
 bbs.ruliweb.com##.icon_data_show_target[title*='남궁근근']
 m.ruliweb.com##.icon_data_show_target[title*='남궁근근']
 ! ## 남궁근근 아이콘 표시 차단
-! ### 3593는 이미 추가됨
 ! ### 3513는 이미 추가됨
 ! ### 3479는 이미 추가됨
 ! ### 3471는 이미 추가됨
@@ -1671,6 +1707,13 @@ m.ruliweb.com##.icon_data_show_target[title*='ㄹㄹㅋㅍ']
 bbs.ruliweb.com##.icon_data_show_target[title*='루리카페']
 m.ruliweb.com##.icon_data_show_target[title*='루리카페']
 ! ## 루리카페 아이콘 표시 차단
+
+! # [아이콘 차단] 냐루비 차단
+! ########
+! ## 냐루비 아이콘 목록 차단
+bbs.ruliweb.com##.icon_data_show_target[title*='냐루비']
+m.ruliweb.com##.icon_data_show_target[title*='냐루비']
+! ## 냐루비 아이콘 표시 차단
 
 ! # [아이콘 차단] 도라 차단
 ! ########
@@ -1803,6 +1846,12 @@ m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_
 bbs.ruliweb.com##.icon_data_show_target[title*='사사']
 m.ruliweb.com##.icon_data_show_target[title*='사사']
 ! ## 사사 아이콘 표시 차단
+! ### 3877 : 내가 쓰려고 만든 사사꼬모콘 V1 (키워드: 사사)
+bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3877"])
+m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3877"])
+|https://i1.ruliweb.com/*?icon=3877|
+|https://i2.ruliweb.com/*?icon=3877|
+|https://i3.ruliweb.com/*?icon=3877|
 ! ### 3172 : 망그러진 사사콘 (키워드: 사사)
 bbs.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3172"])
 m.ruliweb.com#?#.comment > .text_wrapper > .inline_block:has(.comment_icon_page_link[href^="/community/board/98/read/3172"])
