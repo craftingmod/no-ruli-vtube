@@ -3,7 +3,7 @@
 ! Title: Ruli Enhancer
 ! Description: IP 숨김을 해제하고 이모티콘 설정을 트위킹합니다.
 ! Expires: 7 days
-! Version: 20241028_1
+! Version: 20241028_2
 
 
 ! IP Show
@@ -65,12 +65,3 @@ bbs.ruliweb.com##.rv-video-control-panel
 m.ruliweb.com##.rv-video-control-panel
 bbs.ruliweb.com#$#.rv-video-wrapper { box-shadow: none!important; display: inherit!important; }
 m.ruliweb.com#$#.rv-video-wrapper { box-shadow: none!important; display: inherit!important; }
-
-!
-! 모바일 UI 임시방편
-!
-m.ruliweb.com#$##board_list .info > div { display: flex; flex-direction: row-reverse; }
-m.ruliweb.com#$##board_list .info > div > div:first-child { margin-bottom: 0!important; margin-left: 10px; }
-m.ruliweb.com#$##board_list .info > div > div:last-child { flex-grow: 1; display: flex; flex-direction: row-reverse; gap: 0 2px; }
-m.ruliweb.com#$##board_list .info > div > div:last-child .time { flex-grow: 1;}
-m.ruliweb.com#$##board_list .info > .IconsForPost { display: none; }
