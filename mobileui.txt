@@ -1,6 +1,8 @@
-!
-! 모바일 UI부분만 분리
-!
+! License: CC0
+! Title: 루리웹 모바일 UI Tweaker
+! Description: 모바일 UI를 조금 더 보기 좋게 바꿉니다.
+! Expires: 7 days
+! Version: 20241028_1
 
 m.ruliweb.com#$##board_list .info > div { display: flex; flex-direction: row-reverse; }
 m.ruliweb.com#$##board_list .info > div > div:first-child { margin-bottom: 0!important; margin-left: 10px; }
