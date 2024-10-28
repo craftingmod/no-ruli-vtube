@@ -2,10 +2,10 @@
 ! Title: 루리웹 모바일 UI Tweaker
 ! Description: 모바일 UI를 조금 더 보기 좋게 바꿉니다.
 ! Expires: 7 days
-! Version: 20241028_2
+! Version: 20241028_3
 
-m.ruliweb.com#$##board_list .info > col { display: flex; flex-direction: row-reverse; max-width: 100%!important; }
-m.ruliweb.com#$##board_list .info > col > div:first-child { margin-bottom: 0!important; margin-left: 10px; }
-m.ruliweb.com#$##board_list .info > col > div:last-child { flex-grow: 1; display: flex; flex-direction: row-reverse; gap: 0 2px; }
-m.ruliweb.com#$##board_list .info > col > div:last-child .time { flex-grow: 1;}
+m.ruliweb.com#$##board_list .info > .col { display: flex; flex-direction: row-reverse; max-width: 100%!important; }
+m.ruliweb.com#$##board_list .info > .col > div:first-child { margin-bottom: 0!important; margin-left: 10px; flex-grow: 1; }
+m.ruliweb.com#$##board_list .info > .col > div:last-child { display: flex; flex-direction: row-reverse; gap: 0 2px; }
+m.ruliweb.com#$##board_list .info > .col > div:last-child .time { flex-grow: 1;}
 m.ruliweb.com#$##board_list .info > .IconsForPost { display: none; }
