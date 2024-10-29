@@ -1,9 +1,9 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
-! License: The Unlicense
+! License: CC0
 ! Title: Ruli Enhancer
 ! Description: IP 숨김을 해제하고 이모티콘 설정을 트위킹합니다.
 ! Expires: 7 days
-! Version: 20241028_2
+! Version: 20241029_1
 
 
 ! IP Show
@@ -65,3 +65,6 @@ bbs.ruliweb.com##.rv-video-control-panel
 m.ruliweb.com##.rv-video-control-panel
 bbs.ruliweb.com#$#.rv-video-wrapper { box-shadow: none!important; display: inherit!important; }
 m.ruliweb.com#$#.rv-video-wrapper { box-shadow: none!important; display: inherit!important; }
+
+! 곧, BEST 같은 거 제거
+bbs.ruliweb.com##.aaicon
