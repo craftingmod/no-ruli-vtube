@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ruliweb Block Image Responsive Attributes
 // @namespace    local.gun
-// @version      1.0.1
+// @version      1.0.2
 // @description  Prevent Ruliweb editor scripts from injecting problematic responsive image metadata.
 // @match        https://*.ruliweb.com/*write*
 // @match        https://*.ruliweb.com/*modify*
@@ -16,7 +16,9 @@
     return;
   }
 
-  const STOP_SUBMIT = false
+  const STOP_SUBMIT = false;
+  const IMAGE_STYLE = "max-width: 100%; border: 1px solid black;";
+  const allowedAttributes = new Set(["src"]);
 
   const stopSubmit = () => {
     // event.preventDefault();
@@ -25,18 +27,50 @@
     return false;
   };
 
+  function cleanImageElement(img) {
+    [...img.attributes].forEach((attr) => {
+      if (!allowedAttributes.has(attr.name.toLowerCase())) {
+        img.removeAttribute(attr.name);
+      }
+    });
+    img.setAttribute("style", IMAGE_STYLE);
+  }
+
+  function cleanHtml(html) {
+    const doc = new DOMParser().parseFromString(html, "text/html");
+
+    doc.body.querySelectorAll("img").forEach(cleanImageElement);
+
+    return doc.body.innerHTML;
+  }
+
+  function cleanContentValue() {
+    document.querySelectorAll("#board_write .content").forEach((content) => {
+      if ("value" in content && typeof content.value === "string") {
+        content.value = cleanHtml(content.value);
+        return;
+      }
+
+      if (content.innerHTML) {
+        content.innerHTML = cleanHtml(content.innerHTML);
+      }
+    });
+  }
+
+  function cleanImageMetaValue() {
+    const contentImageMeta = document.querySelector("#content_image_meta");
+
+    if (contentImageMeta && "value" in contentImageMeta) {
+      contentImageMeta.value = "{}";
+    }
+  }
+
   function cleanImages() {
     const root = document.querySelector(".board_main_view .App .seditor") || document;
-    const allowedAttributes = new Set(["src"]);
 
-    root.querySelectorAll("img").forEach((img) => {
-      [...img.attributes].forEach((attr) => {
-        if (!allowedAttributes.has(attr.name.toLowerCase())) {
-          img.removeAttribute(attr.name);
-        }
-      });
-      img.setAttribute("style", "max-width: 100%; border: 1px solid black;")
-    });
+    root.querySelectorAll("img").forEach(cleanImageElement);
+    cleanContentValue();
+    cleanImageMetaValue();
   }
 
   window.addEventListener(
@@ -44,8 +78,10 @@
     (ev) => {
       cleanImages();
       if (STOP_SUBMIT) {
-        stopSubmit()
-        return undefined
+        ev.preventDefault();
+        ev.stopImmediatePropagation();
+        stopSubmit();
+        return undefined;
       }
     },
     true,
@@ -55,8 +91,8 @@
   HTMLFormElement.prototype.submit = function submit() {
     cleanImages();
     if (STOP_SUBMIT) {
-      stopSubmit()
-      return undefined
+      stopSubmit();
+      return undefined;
     }
     return originalSubmit.call(this);
   };
@@ -66,8 +102,8 @@
     HTMLFormElement.prototype.requestSubmit = function requestSubmit(...args) {
       cleanImages();
       if (STOP_SUBMIT) {
-        stopSubmit()
-        return undefined
+        stopSubmit();
+        return undefined;
       }
       return originalRequestSubmit.apply(this, args);
     };
