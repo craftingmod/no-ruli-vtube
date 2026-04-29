@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ruliweb Block Image Responsive Attributes
 // @namespace    local.gun
-// @version      1.0.2
+// @version      1.0.3
 // @description  Prevent Ruliweb editor scripts from injecting problematic responsive image metadata.
 // @match        https://*.ruliweb.com/*write*
 // @match        https://*.ruliweb.com/*modify*
@@ -17,7 +17,7 @@
   }
 
   const STOP_SUBMIT = false;
-  const IMAGE_STYLE = "max-width: 100%; border: 1px solid black;";
+  const IMAGE_STYLE = "max-width: 100%;";
   const allowedAttributes = new Set(["src"]);
 
   const stopSubmit = () => {
@@ -33,6 +33,12 @@
         img.removeAttribute(attr.name);
       }
     });
+
+    const src = img.getAttribute("src");
+    if (src) {
+      img.setAttribute("src", src.replace("/img/", "/ori/"));
+    }
+
     img.setAttribute("style", IMAGE_STYLE);
   }
 
