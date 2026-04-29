@@ -31,4 +31,4 @@ https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/enhancer.txt
 ## No Image Trolling
 * Remove unwanted image tags being pushed
 
-[Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/craftingmod/no-ruli-vtube@main/image_troll/block_img_attr.user.js)
+[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fcraftingmod%2Fno-ruli-vtube%40main%2Fimage_troll%2Fblock_img_attr.user.js)
