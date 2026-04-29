@@ -27,3 +27,8 @@ https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/aggressive.txt
 https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/enhancer.txt
 ```
 [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/enhancer.txt&title=Ruli-Enhancer)
+
+## No Image Trolling
+* Remove unwanted image tags being pushed
+
+[Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/craftingmod/no-ruli-vtube@main/image_troll/block_img_attr.user.js)
