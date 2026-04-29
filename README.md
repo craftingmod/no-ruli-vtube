@@ -24,9 +24,9 @@ https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/aggressive.txt
 * Icon UI Redesign
 
 ```
-https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/enhancer.txt
+https://cdn.jsdelivr.net/gh/craftingmod/no-ruli-vtube@main/enhancer.txt
 ```
-[Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/craftingmod/no-ruli-vtube/main/enhancer.txt&title=Ruli-Enhancer)
+[Subscribe](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fcraftingmod%2Fno-ruli-vtube%40main%2Fenhancer.txt&title=Ruli-Enhancer)
 
 ## No Image Trolling
 * Remove unwanted image tags being pushed
