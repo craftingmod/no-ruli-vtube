@@ -3,7 +3,7 @@
 ! Title: Ruli Enhancer
 ! Description: IP 숨김을 해제하고 이모티콘 설정을 트위킹합니다.
 ! Expires: 7 days
-! Version: 20260429_2
+! Version: 20260430_1
 
 
 ! IP Show
@@ -74,6 +74,10 @@ bbs.ruliweb.com##.aaicon
 !
 bbs.ruliweb.com###board_read .board_main_view article img { width: auto!important; height: auto !important; }
 bbs.ruliweb.com#%#//scriptlet('remove-attr', 'width|height|style|data-mo-height|data-mo-width|data-pc-height|data-pc-width|data-aspect-ratio', '#board_read .board_main_view article img', 'asap')
+bbs.ruliweb.com###board_read .board_main_view article video { width: auto!important; height: auto !important; }
+bbs.ruliweb.com#%#//scriptlet('remove-attr', 'width|height|style|data-mo-height|data-mo-width|data-pc-height|data-pc-width|data-aspect-ratio', '#board_read .board_main_view article video', 'asap')
 
 m.ruliweb.com###board_read .board_main_view article img { width: auto!important; height: auto !important; }
 m.ruliweb.com#%#//scriptlet('remove-attr', 'width|height|style|data-mo-height|data-mo-width|data-pc-height|data-pc-width|data-aspect-ratio', '#board_read .board_main_view article img', 'asap')
+m.ruliweb.com###board_read .board_main_view article video { width: auto!important; height: auto !important; }
+m.ruliweb.com#%#//scriptlet('remove-attr', 'width|height|style|data-mo-height|data-mo-width|data-pc-height|data-pc-width|data-aspect-ratio', '#board_read .board_main_view article video', 'asap')
