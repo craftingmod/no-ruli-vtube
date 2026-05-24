@@ -3,7 +3,7 @@
   let running = false
   const removeBtn = document.querySelector("article button[autofocus='1']")
   const progressDOM = document.querySelector("output")
-  const confirmMsg = "진짜로 작성 게시글&댓글이 모두 삭제됩니다. 진행하시겠습니까?\n되돌릴 수 없습니다!"
+  const confirmMsg = "진짜 작성 게시글&댓글이 모두 삭제되고 복구할 수 없습니다! 정말로 진행하시겠습니까?\n전체 삭제를 진행하시려면 '동의합니다'를 입력해주세요."
   const isMobile = location.href.indexOf("m.ruliweb.com") >= 0
   const isDebug = false
 
@@ -294,9 +294,11 @@
           alert("이미 진행중임다.\n취소를 원할 시 새로고침을 해 주세요.")
           return
         }
-        if (confirm(confirmMsg)) {
+        if (prompt(confirmMsg, "시러") === "동의합니다") {
           running = true
           runFn()
+        } else {
+          alert("잘했다요")
         }
       } catch (err2) {}
     })
