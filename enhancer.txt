@@ -1,9 +1,9 @@
 ! Homepage: https://github.com/craftingmod/no-ruli-vtube
 ! License: CC0
 ! Title: Ruli Enhancer
-! Description: IP 숨김을 해제하고 이모티콘 설정을 트위킹합니다.
+! Description: 유게를 사용하기 좋게 트윅합니다.
 ! Expires: 7 days
-! Version: 20260430_1
+! Version: 20260610_1
 
 
 ! IP Show
@@ -13,12 +13,16 @@ m.ruliweb.com#$#.ip_show { display: initial!important; }
 m.ruliweb.com#$#.ip_hide { display: none; }
 
 ! Original Image
-bbs.ruliweb.com^$replace=/i1\.ruliweb\.com\/img\//i1.ruliweb.com\/ori\//i
-m.ruliweb.com^$replace=/i1\.ruliweb\.com\/img\//i1.ruliweb.com\/ori\//i
-bbs.ruliweb.com^$replace=/i2\.ruliweb\.com\/img\//i2.ruliweb.com\/ori\//i
-m.ruliweb.com^$replace=/i2\.ruliweb\.com\/img\//i2.ruliweb.com\/ori\//i
-bbs.ruliweb.com^$replace=/i3\.ruliweb\.com\/img\//i3.ruliweb.com\/ori\//i
-m.ruliweb.com^$replace=/i3\.ruliweb\.com\/img\//i3.ruliweb.com\/ori\//i
+bbs.ruliweb.com^$document,replace=/i1\.ruliweb\.com\/img\//i1.ruliweb.com\/ori\//i
+m.ruliweb.com^$document,replace=/i1\.ruliweb\.com\/img\//i1.ruliweb.com\/ori\//i
+bbs.ruliweb.com^$document,replace=/i2\.ruliweb\.com\/img\//i2.ruliweb.com\/ori\//i
+m.ruliweb.com^$document,replace=/i2\.ruliweb\.com\/img\//i2.ruliweb.com\/ori\//i
+bbs.ruliweb.com^$document,replace=/i3\.ruliweb\.com\/img\//i3.ruliweb.com\/ori\//i
+m.ruliweb.com^$document,replace=/i3\.ruliweb\.com\/img\//i3.ruliweb.com\/ori\//i
+
+! Comment Image
+bbs.ruliweb.com^$document,replace=/\.mp4\?gif/\.gif/i
+m.ruliweb.com^$document,replace=/\.mp4\?gif/\.gif/i
 
 !
 ! PC - 내가 가진 아이콘 목록
